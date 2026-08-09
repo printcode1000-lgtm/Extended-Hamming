@@ -13,24 +13,24 @@ Release version: **0.2 — Validated Working Draft**
 - Public repository: <https://github.com/printcode1000-lgtm/Extended-Hamming>
 - Target/default branch: `main`.
 - Remote name: `origin`; no duplicate remote was created.
-- Last release commit: the current `main` tip shown in the public Git history. This report is part of that release, so Git/GitHub is the authoritative commit identifier.
+- Initial validated research-package commit: `67f99a6`. The current `main` tip shown in the public Git history is the authoritative final release identifier because this deployment-status report follows that package commit.
 - Secret scan: **PASS**, 316 text/source files inspected before staging; no credential pattern or forbidden credential file detected.
 - Publication exclusions: LTspice `.raw`, `.op.raw`, and `.db` artifacts; Python caches; environment/credential files; editor/OS caches; local PDF render QA; and a locally retained published-paper page image.
 - Retained for reproducibility: 121 `.cir` source netlists, 121 textual `.log` files, device model, experiment manifest, processed datasets, verification sources, figures, documentation, and PDFs.
 
 ## Website and GitHub Pages
 
-- Website status: **validated and ready for GitHub Pages deployment**.
+- Website status: **deployed, live, and browser-validated**.
 - Publishing source: repository root.
 - GitHub Pages workflow: `.github/workflows/pages.yml`.
 - Repository path tested: `/Extended-Hamming/`.
-- Intended URL: <https://printcode1000-lgtm.github.io/Extended-Hamming/>
+- Live URL: <https://printcode1000-lgtm.github.io/Extended-Hamming/>
 - Website pages: 23 HTML pages, including the research portal, integrated thesis, ten chapter pages, research pages, PDF library, technical index, download center, references, and 404 page.
 - Responsive profiles: desktop 1440×900, laptop 1024×768, tablet 768×1024, and mobile 390×844.
 - Print styles: available for the public portal and integrated online thesis.
 - Accessibility: semantic landmarks, labeled navigation, heading hierarchy, alt text, table captions/headers, visible focus, and scroll-contained mobile tables.
 
-GitHub must permit the repository's included Actions-based Pages workflow. If the first workflow is not automatically accepted, select **Settings → Pages → Source: GitHub Actions** once; no URL or source-file edit is required.
+GitHub Pages was configured with the Actions build source. Workflow run `31319051965` completed successfully, and the live homepage, results page, figures, PDF library, and thesis PDF returned HTTP 200 and were opened in the browser.
 
 ## PDF status
 
@@ -75,7 +75,7 @@ The detailed inventory is in `docs/pdf-inventory.md`.
 - HTML pages checked: 23.
 - Internal links checked: 289.
 - Known broken internal links: **0**.
-- Unique external links checked across public HTML and documentation: 4. Two passed automatically; the official Analog Devices LTspice page was manually verified after a timeout, and the GitHub Pages URL awaits its first deployment.
+- Unique external links checked across public HTML and documentation: 4. GitHub, PTM, and GitHub Pages passed automatically; the official Analog Devices LTspice page was manually verified after an automated timeout.
 - Missing PDFs or downloads: **0**.
 - Incorrect-case paths: **0**.
 - Broken anchors: **0**.

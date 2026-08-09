@@ -4,7 +4,7 @@
   "internal_links_checked": 289,
   "internal_failures": 0,
   "external_links_checked": 4,
-  "external_failures": 2,
+  "external_failures": 1,
   "internal": [
     {
       "page": "404.html",
@@ -2332,8 +2332,8 @@
     },
     {
       "url": "https://printcode1000-lgtm.github.io/Extended-Hamming/",
-      "status": 404,
-      "ok": false
+      "status": 200,
+      "ok": true
     },
     {
       "url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",

@@ -17,7 +17,7 @@ The automatic checker inspected 23 HTML pages. Browser testing opened the academ
 - Base path tested: `/Extended-Hamming/`.
 - Internal links checked: 289.
 - Known broken internal links: **0**.
-- Unique external links checked across public HTML and research documentation: 4. GitHub and PTM responded automatically; the Analog Devices LTspice page timed out in the local checker but was verified manually from the official page; the intended GitHub Pages URL remained 404 before the first deployment.
+- Unique external links checked across public HTML and research documentation: 4. GitHub, PTM, and the deployed GitHub Pages site responded automatically; the Analog Devices LTspice page timed out in the local checker but was independently opened and verified from the official page.
 - PDF endpoints opened in the browser: 15 of 15.
 - Explicit PDF download controls: 15 of 15.
 - CSS, JavaScript, images, JSON, CSV, source-code, model, netlist, log, bibliography, and PDF targets were checked for file existence and exact case.
@@ -55,8 +55,8 @@ No page-level horizontal overflow was detected. Wide result tables scroll inside
 
 ## Known and remaining issues
 
-- GitHub Pages deployment still depends on GitHub enabling the included Pages workflow for the repository. The workflow is committed and requires no root-domain assumption.
-- The automated external-URL report records the pre-deployment Pages 404 and an Analog Devices timeout. Neither is an internal-site defect; the official LTspice page was independently opened and verified.
+- GitHub Pages is enabled with the Actions source. The deployment workflow completed successfully and the live site was opened in a browser.
+- The automated external-URL report records one Analog Devices timeout. This is not an internal-site defect; the official LTspice page was independently opened and verified.
 - Institutional identity, university template, supervisor name, and formal submission metadata remain pending and have not been invented.
 - The chapter index pages are concise navigation/abstract pages; the integrated online thesis contains the complete current chapter text.
 - Browser PDF titles are displayed by the built-in viewer as URLs; document title/author metadata inside all PDFs is correct.
