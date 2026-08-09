@@ -1,0 +1,23 @@
+LTspice 26.0.2 for Windows
+Circuit: ltspice\xor\gdi\EXP-XOR-GDI-F025.cir
+Start Time: Sun Aug  9 16:41:35 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 6.325 seconds.
+
+Files loaded:
+ltspice\xor\gdi\EXP-XOR-GDI-F025.cir
+models\65nm_bulk.pm
+ltspice\circuits.lib
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=1.90502064922e-07 FROM 1.2e-07 TO 4.8e-07
+tplh=8.84086802384e-11 FROM 9.00099999996e-08 TO 9.00984086798e-08
+tphl=9.50162109039e-11 FROM 1.1003e-07 TO 1.10125016211e-07
+Measurement "trise" FAIL'ed
+Measurement "tfall" FAIL'ed
+voh: MAX(V(Y) )=0.889032185078 FROM 1.2e-07 TO 4.8e-07
+vol: MIN(V(Y) )=0.296895891428 FROM 1.2e-07 TO 4.8e-07

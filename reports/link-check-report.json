@@ -1,0 +1,2345 @@
+{
+  "base_path_tested": "/Extended-Hamming/",
+  "pages_checked": 23,
+  "internal_links_checked": 289,
+  "internal_failures": 0,
+  "external_links_checked": 4,
+  "external_failures": 2,
+  "internal": [
+    {
+      "page": "404.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "404.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\thesis\\Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/research/Research_Gap_and_Contribution.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Research_Gap_and_Contribution.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/experiments.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\experiments.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "models/65nm_bulk.pm",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\models\\65nm_bulk.pm",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\ltspice\\extended-hamming-12-7\\EXP-EH127-HYBRID_B-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\ltspice\\extended-hamming-12-7\\EXP-EH127-HYBRID_B-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/circuits.lib",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\ltspice\\circuits.lib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "scripts/hamming.py",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\scripts\\hamming.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "scripts/build_ltspice.py",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\scripts\\build_ltspice.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "verification/verilog/hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\verification\\verilog\\hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "verification/verilog/tb_hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\verification\\verilog\\tb_hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/processed/results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\processed\\results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/csv/hamming_vectors.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\csv\\hamming_vectors.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/json/hamming_vectors.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\json\\hamming_vectors.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "figures/eh127_nominal_power.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_power.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "figures/eh127_nominal_delay.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_delay.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\thesis\\Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "src",
+      "link": "assets/site.js",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.js",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "literature/survey/survey.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature\\survey\\survey.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
+      "link": "literature/survey/survey.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature\\survey\\survey.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\thesis\\Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\thesis\\Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Research_Gap_and_Contribution.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Research_Gap_and_Contribution.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Research_Gap_and_Contribution.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Research_Gap_and_Contribution.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Original_Paper_Audit.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Original_Paper_Audit.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Original_Paper_Audit.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Original_Paper_Audit.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/LTspice_Simulation_Methodology.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\LTspice_Simulation_Methodology.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/LTspice_Simulation_Methodology.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\LTspice_Simulation_Methodology.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/65nm_Device_Model_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\65nm_Device_Model_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/65nm_Device_Model_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\65nm_Device_Model_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Simulation_Measurement_Definitions.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Simulation_Measurement_Definitions.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Simulation_Measurement_Definitions.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Simulation_Measurement_Definitions.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Software_and_Research_Tools.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Software_and_Research_Tools.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Software_and_Research_Tools.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Software_and_Research_Tools.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/GitHub_Public_Repository_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\GitHub_Public_Repository_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/GitHub_Public_Repository_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\GitHub_Public_Repository_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/Reproducibility_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\Reproducibility_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/Reproducibility_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\Reproducibility_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/simulation/SEC-DED_Verification_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\SEC-DED_Verification_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/simulation/SEC-DED_Verification_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\SEC-DED_Verification_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Project_Technical_Architecture.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Project_Technical_Architecture.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/technical/Project_Technical_Architecture.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Project_Technical_Architecture.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/publication/Publication_Plan_and_Manuscript_Outline.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\publication\\Publication_Plan_and_Manuscript_Outline.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/publication/Publication_Plan_and_Manuscript_Outline.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\publication\\Publication_Plan_and_Manuscript_Outline.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\ltspice\\extended-hamming-12-7\\EXP-EH127-HYBRID_B-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
+      "link": "verification/verilog/hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\verification\\verilog\\hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "references/references.bib",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references\\references.bib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "references/references.bib",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references\\references.bib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "literature/survey/survey.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature\\survey\\survey.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "pdf/research/Literature_Survey.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Literature_Survey.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "pdf/research/Research_Gap_and_Contribution.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Research_Gap_and_Contribution.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "pdf/research/Research_Gap_and_Contribution.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Research_Gap_and_Contribution.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
+      "link": "docs/research-gap.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\research-gap.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "src",
+      "link": "figures/eh127_nominal_power.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_power.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "src",
+      "link": "figures/eh127_nominal_delay.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_delay.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "src",
+      "link": "figures/eh127_nominal_pdp.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_pdp.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "data/processed/results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\processed\\results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
+      "link": "data/processed/nominal_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\processed\\nominal_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "pdf/technical/LTspice_Simulation_Methodology.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\LTspice_Simulation_Methodology.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "pdf/technical/LTspice_Simulation_Methodology.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\LTspice_Simulation_Methodology.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "data/experiments.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\experiments.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
+      "link": "models/65nm_bulk.pm",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\models\\65nm_bulk.pm",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/technical/LTspice_Simulation_Methodology.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\LTspice_Simulation_Methodology.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "docs/simulation-methodology.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\simulation-methodology.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "ltspice/circuits.lib",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\ltspice\\circuits.lib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/technical/Software_and_Research_Tools.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Software_and_Research_Tools.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "README.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\README.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/GitHub_Public_Repository_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\GitHub_Public_Repository_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/reproducibility/Reproducibility_Guide.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\reproducibility\\Reproducibility_Guide.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "docs/experiment-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\experiment-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/technical/65nm_Device_Model_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\65nm_Device_Model_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "docs/model-documentation.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\model-documentation.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "models/65nm_bulk.pm",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\models\\65nm_bulk.pm",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/technical/Simulation_Measurement_Definitions.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\technical\\Simulation_Measurement_Definitions.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "docs/measurement-definitions.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\measurement-definitions.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "data/experiments.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\experiments.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "data/experiments.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\experiments.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/research/Original_Paper_Audit.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\research\\Original_Paper_Audit.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "docs/original-paper-audit.md",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\docs\\original-paper-audit.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "pdf/simulation/SEC-DED_Verification_Documentation.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\simulation\\SEC-DED_Verification_Documentation.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "results/functional_verification.json",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\results\\functional_verification.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "verification/verilog/hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\verification\\verilog\\hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "verification/verilog/tb_hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\verification\\verilog\\tb_hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "scripts/verify_secded.py",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\scripts\\verify_secded.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "scripts/results_pipeline.py",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\scripts\\results_pipeline.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "data/processed/results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\processed\\results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
+      "link": "data/csv/hamming_vectors.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\data\\csv\\hamming_vectors.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf\\thesis\\Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#abstract",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch1",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch2",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch3",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch4",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch5",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch6",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch7",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch8",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch9",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#ch10",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "#references",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../literature/survey/survey.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature\\survey\\survey.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "../figures/eh127_nominal_power.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_power.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "../figures/eh127_nominal_delay.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_delay.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "../figures/eh127_nominal_pdp.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_nominal_pdp.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "../figures/eh127_pdp_vs_vdd.png",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\figures\\eh127_pdp_vs_vdd.png",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../references/references.bib",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\references\\references.bib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "href",
+      "link": "../literature/survey/survey.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\literature\\survey\\survey.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "data/thesis-data.js",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\data\\thesis-data.js",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\index.html",
+      "attribute": "src",
+      "link": "js/thesis.js",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\js\\thesis.js",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\01-introduction.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\01-introduction.html",
+      "attribute": "href",
+      "link": "../index.html#ch1",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\02-literature-survey.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\02-literature-survey.html",
+      "attribute": "href",
+      "link": "../index.html#ch2",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\03-theory.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\03-theory.html",
+      "attribute": "href",
+      "link": "../index.html#ch3",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\04-reproduction.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\04-reproduction.html",
+      "attribute": "href",
+      "link": "../index.html#ch4",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\05-extended-architecture.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\05-extended-architecture.html",
+      "attribute": "href",
+      "link": "../index.html#ch5",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\06-hybrid-design.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\06-hybrid-design.html",
+      "attribute": "href",
+      "link": "../index.html#ch6",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\07-methodology.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\07-methodology.html",
+      "attribute": "href",
+      "link": "../index.html#ch7",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\08-results.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\08-results.html",
+      "attribute": "href",
+      "link": "../index.html#ch8",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\09-discussion.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\09-discussion.html",
+      "attribute": "href",
+      "link": "../index.html#ch9",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\10-conclusions.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\10-conclusions.html",
+      "attribute": "href",
+      "link": "../index.html#ch10",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "../css/thesis.css",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\css\\thesis.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "01-introduction.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\01-introduction.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "02-literature-survey.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\02-literature-survey.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "03-theory.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\03-theory.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "04-reproduction.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\04-reproduction.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "05-extended-architecture.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\05-extended-architecture.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "06-hybrid-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\06-hybrid-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "07-methodology.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\07-methodology.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "08-results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\08-results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "09-discussion.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\09-discussion.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "10-conclusions.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\chapters\\10-conclusions.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
+      "link": "../index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    }
+  ],
+  "external": [
+    {
+      "url": "https://github.com/printcode1000-lgtm/Extended-Hamming",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://mec.umn.edu/ptm",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://printcode1000-lgtm.github.io/Extended-Hamming/",
+      "status": 404,
+      "ok": false
+    },
+    {
+      "url": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+      "status": null,
+      "ok": false,
+      "note": "The read operation timed out"
+    }
+  ]
+}

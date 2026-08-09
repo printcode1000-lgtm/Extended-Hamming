@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "method": "Exhaustive enumeration",
+  "data_words_tested": 128,
+  "single_bit_error_cases_tested": 1536,
+  "double_bit_error_cases_tested": 8448,
+  "interpretation": "The encoder/decoder model corrected every single-bit error and detected every double-bit error. This verifies the SEC-DED code model, not a transistor-level decoder."
+}

@@ -1,0 +1,58 @@
+* Reusable 65-nm transistor-level logic cells.
+* Node order: inputs, output, VDD, VSS.
+* The PTM device bodies are tied to the supply rails. This is a predictive,
+* circuit-level study and not a foundry-qualified bulk-bias implementation.
+
+.subckt INV A Y VDD VSS
+Mp Y A VDD VDD pmos L=65n W=240n
+Mn Y A VSS VSS nmos L=65n W=120n
+.ends INV
+
+* Twelve-transistor fully complementary static CMOS XOR.
+.subckt XOR_CMOS A B Y VDD VSS
+Xa A AN VDD VSS INV
+Xb B BN VDD VSS INV
+* Pull-up: A=0,B=1 or A=1,B=0.
+Mp1 Y A npu1 VDD pmos L=65n W=240n
+Mp2 npu1 BN VDD VDD pmos L=65n W=240n
+Mp3 Y AN npu2 VDD pmos L=65n W=240n
+Mp4 npu2 B VDD VDD pmos L=65n W=240n
+* Pull-down: A=B.
+Mn1 Y A npd1 VSS nmos L=65n W=120n
+Mn2 npd1 B VSS VSS nmos L=65n W=120n
+Mn3 Y AN npd2 VSS nmos L=65n W=120n
+Mn4 npd2 BN VSS VSS nmos L=65n W=120n
+.ends XOR_CMOS
+
+* Four-transistor original GDI XOR. Output swing degradation is expected.
+.subckt XOR_GDI A B Y VDD VSS
+Xb B BN VDD VSS INV
+Mp Y A B VDD pmos L=65n W=240n
+Mn Y A BN VSS nmos L=65n W=120n
+.ends XOR_GDI
+
+* Six-transistor swing-restored GDI XOR reconstructed from Fig. 1(a) of the
+* baseline paper. The two restoration devices pass A when B=0, complementing
+* the weak transitions of the four-transistor GDI core.
+.subckt XOR_FSGDI A B Y VDD VSS
+Xb B BN VDD VSS INV
+Mp Y A B VDD pmos L=65n W=240n
+Mn Y A BN VSS nmos L=65n W=120n
+Mrl Y BN A VSS nmos L=65n W=120n
+Mrh Y B A VDD pmos L=65n W=240n
+.ends XOR_FSGDI
+
+* Hybrid-A: local CMOS restoration after every FS-GDI XOR cell.
+.subckt XOR_HYBRID_A A B Y VDD VSS
+Xcore A B RAW VDD VSS XOR_FSGDI
+Xi1 RAW NBUF VDD VSS INV
+Xi2 NBUF Y VDD VSS INV
+.ends XOR_HYBRID_A
+
+* A generic non-inverting CMOS restoration buffer used by Hybrid-B only at
+* externally observed parity outputs.
+.subckt RESTORE_BUFFER A Y VDD VSS
+Xi1 A NBUF VDD VSS INV
+Xi2 NBUF Y VDD VSS INV
+.ends RESTORE_BUFFER
+

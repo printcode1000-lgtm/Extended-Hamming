@@ -1,0 +1,23 @@
+LTspice 26.0.2 for Windows
+Circuit: ltspice\xor\hybrid-a\EXP-XOR-HYBRID_A-L01.cir
+Start Time: Sun Aug  9 16:42:48 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 2.601 seconds.
+
+Files loaded:
+ltspice\xor\hybrid-a\EXP-XOR-HYBRID_A-L01.cir
+models\65nm_bulk.pm
+ltspice\circuits.lib
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=5.19623370591e-07 FROM 2.4e-08 TO 9.6e-08
+tplh=2.03084661023e-11 FROM 1.80099999996e-08 TO 1.80303084657e-08
+tphl=2.13461002424e-11 FROM 2.20300000004e-08 TO 2.20513461006e-08
+trise=1.55561962645e-11 FROM 1.80241493454e-08 TO 1.80397055416e-08
+tfall=1.25182256976e-11 FROM 2.20454348047e-08 TO 2.20579530304e-08
+voh: MAX(V(Y) )=1.23061215878 FROM 2.4e-08 TO 9.6e-08
+vol: MIN(V(Y) )=-0.0136173628271 FROM 2.4e-08 TO 9.6e-08

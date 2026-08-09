@@ -1,0 +1,23 @@
+LTspice 26.0.2 for Windows
+Circuit: ltspice\xor\cmos\EXP-XOR-CMOS-VDD06.cir
+Start Time: Sun Aug  9 16:40:16 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 3.150 seconds.
+
+Files loaded:
+ltspice\xor\cmos\EXP-XOR-CMOS-VDD06.cir
+models\65nm_bulk.pm
+ltspice\circuits.lib
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=5.2935766241e-07 FROM 2.4e-08 TO 9.6e-08
+tplh=3.57032458376e-10 FROM 1.80099999996e-08 TO 1.8367032458e-08
+tphl=2.21605985695e-10 FROM 2.20300000004e-08 TO 2.22516059861e-08
+trise=7.07372710221e-10 FROM 1.80850775595e-08 TO 1.87924502697e-08
+tfall=3.80585502499e-10 FROM 2.20838646288e-08 TO 2.24644501313e-08
+voh: MAX(V(Y) )=0.599925637245 FROM 2.4e-08 TO 9.6e-08
+vol: MIN(V(Y) )=4.49240542366e-05 FROM 2.4e-08 TO 9.6e-08

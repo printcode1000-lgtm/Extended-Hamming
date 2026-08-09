@@ -1,0 +1,32 @@
+# LTspice generated binaries and caches (source netlists and logs are retained)
+*.raw
+*.op.raw
+*.db
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Local QA renders and server state
+reports/pdf-qa/
+reports/*.pid
+
+# Copyright-review image retained locally, not redistributed
+literature/notes/original-page4.png

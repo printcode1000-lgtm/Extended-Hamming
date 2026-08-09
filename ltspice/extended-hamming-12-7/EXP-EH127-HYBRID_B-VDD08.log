@@ -1,0 +1,24 @@
+LTspice 26.0.2 for Windows
+Circuit: ltspice\extended-hamming-12-7\EXP-EH127-HYBRID_B-VDD08.cir
+Start Time: Sun Aug  9 16:59:47 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 7.361 seconds.
+
+Files loaded:
+ltspice\extended-hamming-12-7\EXP-EH127-HYBRID_B-VDD08.cir
+models\65nm_bulk.pm
+ltspice\circuits.lib
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=4.49371631744e-06 FROM 3.2e-08 TO 1.28e-07
+tplh=4.63417450983e-10 FROM 2.00999999985e-09 TO 2.47341745083e-09
+tphl=3.64805710779e-10 FROM 6.03000000015e-09 TO 6.39480571093e-09
+voh: MAX(V(P0) )=0.804038167 FROM 3.2e-08 TO 1.28e-07
+vol: MIN(V(P0) )=-0.002229352016 FROM 3.2e-08 TO 1.28e-07

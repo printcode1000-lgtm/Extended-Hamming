@@ -1,0 +1,15 @@
+*.pdf binary
+*.png binary
+*.raw binary
+*.db binary
+models/*.pm -text
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.cir text eol=lf
+*.log text eol=lf
+*.sv text eol=lf

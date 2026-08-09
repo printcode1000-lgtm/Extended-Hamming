@@ -1,0 +1,19 @@
+* XOR benchmark: HYBRID_A
+.include ../../../models/65nm_bulk.pm
+.include ../../circuits.lib
+.param VDD=1.2
+.temp 27.0
+VSUP VDD 0 {VDD}
+VA A 0 PULSE(0 1.2 2e-09 20p 20p 4e-09 8e-09)
+VB B 0 0
+XU A B Y VDD 0 XOR_HYBRID_A
+CLOAD Y 0 1.0f
+.tran 2p 9.6e-08 0 2p
+.meas tran pavg AVG (-V(VDD)*I(VSUP)) FROM=2.4e-08 TO=9.6e-08
+.meas tran tplh TRIG V(A) VAL=0.6 RISE=3 TARG V(Y) VAL=0.6 RISE=3
+.meas tran tphl TRIG V(A) VAL=0.6 FALL=3 TARG V(Y) VAL=0.6 FALL=3
+.meas tran trise TRIG V(Y) VAL=0.12 RISE=3 TARG V(Y) VAL=1.08 RISE=3
+.meas tran tfall TRIG V(Y) VAL=1.08 FALL=3 TARG V(Y) VAL=0.12 FALL=3
+.meas tran voh MAX V(Y) FROM=2.4e-08 TO=9.6e-08
+.meas tran vol MIN V(Y) FROM=2.4e-08 TO=9.6e-08
+.end

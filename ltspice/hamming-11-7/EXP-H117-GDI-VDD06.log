@@ -1,0 +1,21 @@
+LTspice 26.0.2 for Windows
+Circuit: ltspice\hamming-11-7\EXP-H117-GDI-VDD06.cir
+Start Time: Sun Aug  9 16:43:47 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 2.735 seconds.
+
+Files loaded:
+ltspice\hamming-11-7\EXP-H117-GDI-VDD06.cir
+models\65nm_bulk.pm
+ltspice\circuits.lib
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=8.49049572107e-08 FROM 3.2e-08 TO 1.28e-07
+tplh=1.62226195641e-08 FROM 2.0099999996e-09 TO 1.82326195637e-08
+tphl=1.6272922453e-08 FROM 6.0300000004e-09 TO 2.23029224534e-08
+voh: MAX(V(P1N_4) )=0.603744328022 FROM 3.2e-08 TO 1.28e-07
+vol: MIN(V(P1N_4) )=-0.00317786773667 FROM 3.2e-08 TO 1.28e-07
