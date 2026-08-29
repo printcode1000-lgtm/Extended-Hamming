@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Research Effort · Extended Hamming Research</title>
-  <meta name="description" content="Detailed bilingual record of research effort, literature review, documentation, experiments, results, and artifact links.">
+  <meta name="description" content="Detailed bilingual reference page covering research effort, literature review, documentation, experiments, results, limits, and all major project links.">
   <meta name="author" content="Howida Gharib Saad El Din Selim">
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <header class="site-header">
   <div class="identity">
-    <p class="eyebrow">Bilingual research record</p>
-    <h1>Research Effort and Evidence Record</h1>
+    <p class="eyebrow">Bilingual research reference</p>
+    <h1>Research Effort and Complete Project Reference</h1>
     <p class="byline">Researcher: Howida Gharib Saad El Din Selim</p>
   </div>
   <nav class="site-nav" aria-label="Primary navigation">
@@ -30,163 +30,279 @@
     <a href="references.html">References</a>
   </nav>
 </header>
+
 <main>
-  <section lang="ar" dir="rtl" aria-labelledby="arabic-summary">
-    <p class="eyebrow">تقرير عربي</p>
-    <h2 id="arabic-summary">ماذا قام به الباحث؟</h2>
-    <p class="lede">هذه الصفحة هي السجل الوحيد ثنائي اللغة في المشروع. وهي تلخص المجهود البحثي، مراجعة المصادر، تحديث الوثائق، التجارب، النتائج، والروابط المباشرة لكل مادة أساسية يمكن الرجوع إليها.</p>
-    <p class="status"><strong>الخلاصة:</strong> العمل ليس مجرد موقع أو تنسيق ملفات. الباحثة راجعت ورقة أساس، حددت فجوة بحثية محافظة، بنت نموذج Extended Hamming (12,7) SEC-DED، قارنت CMOS وGDI وFS-GDI وتصميمات هجينة، شغلت تجارب LTspice، تحققت من المنطق برمجيًا، ثم نشرت النتائج والوثائق بصيغ PDF وWord.</p>
+  <section lang="ar" dir="rtl" aria-labelledby="arabic-overview">
+    <p class="eyebrow">المرجع العربي</p>
+    <h2 id="arabic-overview">ماذا فعل الباحث؟</h2>
+    <p class="lede">هذه الصفحة هي المرجع الشامل للمشروع باللغة العربية والإنجليزية. هدفها أن تشرح للقارئ، من غير الدخول في ملفات متفرقة، ما الذي تم عمله بحثيًا، وما الوثائق التي تم تحديثها، وما التجارب التي أجريت، وما النتائج التي خرج بها المشروع، وأين يجد كل دليل أو ملف مرتبط بذلك.</p>
+    <p class="status"><strong>الخلاصة العامة:</strong> المشروع أنجز سلسلة بحثية كاملة تبدأ من مراجعة الأدبيات والورقة الأساسية، ثم تحديد فجوة بحثية، ثم بناء نموذج منطقي ومحاكاة ترانزستورية، ثم معالجة النتائج وتوثيقها في صفحات وملفات PDF وWord وبيانات قابلة للمراجعة.</p>
 
-    <h2>المجهود البحثي التفصيلي</h2>
+    <h2>1. نقطة البداية والمشكلة البحثية</h2>
+    <p>انطلق العمل من فكرة أن تقليل عدد الترانزستورات في دوائر XOR قد يخفض القدرة والطاقة، لكن عدد الترانزستورات وحده لا يكفي للحكم على جودة التصميم. لذلك ركز المشروع على قياس القدرة، التأخير، PDP، الطاقة لكل عملية، swing، وعدد الترانزستورات تحت ظروف تشغيل مختلفة.</p>
+    <p>المشروع راجع ورقة Hamming (11,7) باستخدام FS-GDI، ثم وسع نطاق البحث إلى Extended Hamming (12,7) بإضافة overall parity bit لاختبار SEC-DED.</p>
+
+    <h2>2. مراجعة الأدبيات والمصادر</h2>
     <ul>
-      <li>مراجعة وتحليل ورقة Hamming/FS-GDI الأساسية لعام 2024، مع رصد حدود إعادة الإنتاج ونقاط عدم الاتساق في نسب التحسين.</li>
-      <li>بناء مسح أدبي يربط بين Hamming codes وGDI وFS-GDI وأعمال ECC الحديثة حتى 2026.</li>
-      <li>تحديد فجوة بحثية ضيقة: غياب مقارنة ترانزستورية قابلة للتكرار لتصميم Extended Hamming (12,7) مع قياسات موحدة ومسار D1-to-P0 واضح.</li>
-      <li>تطوير نموذج منطقي لـ Hamming (11,7) وExtended Hamming (12,7) وإضافة overall parity لتحقيق SEC-DED.</li>
-      <li>إنشاء netlists قابلة لإعادة التوليد لمحاكاة CMOS وGDI وFS-GDI وHybrid-A وHybrid-B.</li>
-      <li>تنفيذ 121 تجربة LTspice، قبول 118 مجموعة قياس، والاحتفاظ بثلاث نقاط مرفوضة بسبب overshoot بدل إخفائها.</li>
-      <li>توليد الجداول، ملفات CSV/JSON، الرسومات، ملفات PDF، ونسخ Word قابلة للتحرير لكل وثيقة أكاديمية.</li>
-      <li>إضافة صفحات ويب للفجوة البحثية، التصميم المقترح، المنهجية، النتائج، التوثيق، مكتبة PDF/Word، ومركز التحميل.</li>
+      <li>تم الرجوع إلى الأساس النظري لكود Hamming.</li>
+      <li>تم الرجوع إلى أعمال GDI وFS-GDI المؤسسة.</li>
+      <li>تم فحص أوراق حديثة في low-power logic وECC وHamming encoder designs.</li>
+      <li>تم تسجيل المصادر في ملف BibTeX وجدول survey منظم.</li>
+      <li>تم توثيق حدود الورقة الأساسية، ومنها عدم نشر netlists وعدم وضوح load وactivity ووجود نسب تحسين غير متسقة.</li>
     </ul>
 
-    <h2>هل تم تحديث المصادر والوثائق؟</h2>
-    <p>نعم. تم توثيق المسح الأدبي، مراجعة الورقة الأصلية، خطة البحث، خطة التجارب، تعريفات القياس، توثيق نموذج 65nm، قرارات البحث، خطة النشر، تقرير جودة الموقع، وتقرير الإصدار العام. كما تم تحويل الوثائق الأكاديمية إلى PDF وWord.</p>
+    <h2>3. الفجوة البحثية</h2>
+    <p>الفجوة ليست أن Hamming جديد، ولا أن GDI جديد. الفجوة المحددة هي عدم وجود مقارنة ترانزستورية قابلة للتكرار وموحدة الظروف لتصميم Extended Hamming (12,7) يجمع بين CMOS وFS-GDI واستعادة انتقائية للمخارج، مع قياس واضح لمسار D1-to-P0 وحفظ كامل للتجارب والنتائج المقبولة والمرفوضة.</p>
 
-    <h2>هل أجريت تجارب؟</h2>
-    <p>نعم. تم توليد وتشغيل تجارب LTspice باستخدام نموذج PTM 65-nm، مع sweeps للجهد، الحرارة، التردد، والحمل. كما تم التحقق من نموذج SEC-DED عبر 128 كلمة بيانات، و1,536 حالة خطأ مفرد، و8,448 حالة خطأ مزدوج.</p>
-
-    <h2>ما النتائج؟</h2>
-    <p>التصميم Hybrid-B حقق في الحالة الاسمية 1.2 V و27 C و125 MHz و10 fF قدرة تقريبية 11.203 uW، وتأخير D1-to-P0 مقداره 215.846 ps، وPDP مقداره 2.418 fJ، وعدد ترانزستورات 152. مقارنة بـ CMOS، التحسن كان 58.54% في القدرة، 37.43% في التأخير، 74.06% في PDP، و42.42% في عدد الترانزستورات.</p>
-    <p>لكن النتيجة العلمية المهمة أن Hybrid-B ليس الأفضل مطلقًا؛ FS-GDI غير المخزن بقي الأقل في القدرة وPDP، بينما Hybrid-B هو حل موجه للسرعة واستعادة المخارج.</p>
-
-    <h2>الحدود العلمية</h2>
-    <p>المشروع لا يدعي تصنيعًا، ولا قياسات سيليكون، ولا اعتماد foundry، ولا قبول نشر نهائي. العمل ما زال يحتاج مراجعة المشرف، واجهة جامعة نهائية، ويفضل cross-check بمحاكي ثان أو foundry PDK.</p>
-
-  </section>
-
-  <section aria-labelledby="english-summary">
-    <p class="eyebrow">English record</p>
-    <h2 id="english-summary">What Did the Researcher Do?</h2>
-    <p class="lede">This page is the only bilingual page in the project. It records the research effort, source review, documentation updates, experiments, results, evidence boundaries, and direct links to the project artifacts.</p>
-    <p class="status"><strong>Summary:</strong> The work is not only website formatting. The researcher audited the baseline paper, defined a conservative research gap, implemented an Extended Hamming (12,7) SEC-DED evaluation, compared CMOS/GDI/FS-GDI/hybrid logic styles, ran LTspice experiments, verified the logic model, and published traceable evidence in PDF and editable Word formats.</p>
-
-    <h2>Detailed Research Work</h2>
+    <h2>4. ما الذي تم بناؤه؟</h2>
     <ul>
-      <li>Audited the 2024 Hamming/FS-GDI baseline paper and recorded reproducibility limitations and inconsistent improvement percentages.</li>
-      <li>Built a literature survey connecting Hamming codes, GDI, FS-GDI, low-power XOR design, and modern ECC work through 2026.</li>
-      <li>Defined a narrow evidence-based gap: reproducible transistor-level comparison for an Extended Hamming (12,7) encoder with common stimuli, measurements, and D1-to-P0 timing.</li>
-      <li>Implemented Hamming (11,7) and Extended Hamming (12,7) logic, including overall parity for SEC-DED behavior.</li>
-      <li>Generated reproducible LTspice netlists for CMOS, GDI, FS-GDI, Hybrid-A, and Hybrid-B architectures.</li>
-      <li>Executed 121 LTspice experiments, accepted 118 measurement sets, and retained three rejected overshoot points for auditability.</li>
-      <li>Produced CSV/JSON datasets, publication figures, PDF documents, and editable Word versions for all academic documents.</li>
-      <li>Published web pages for the research gap, proposed design, methodology, results, technical documentation, PDF/Word library, and download center.</li>
+      <li>نموذج Python للتحقق من Hamming (11,7) وExtended Hamming (12,7).</li>
+      <li>مرجع SystemVerilog للـ encoder واختبار testbench مستقل.</li>
+      <li>مكتبة LTspice circuits تحتوي خلايا CMOS وGDI وFS-GDI والتصميمات الهجينة.</li>
+      <li>مولد netlists ينتج تجارب LTspice قابلة للتكرار.</li>
+      <li>pipeline لمعالجة logs واستخراج النتائج والتحقق من القياسات.</li>
+      <li>رسومات وCSV/JSON وPDF وWord وصفحات موقع تعرض الأدلة.</li>
     </ul>
 
-    <h2>Updated Sources and Documentation</h2>
-    <p>The repository includes a literature survey, baseline paper audit, research plan, experiment plan, measurement definitions, device-model documentation, research decisions, publication plan, website quality report, release report, PDF/Word inventory, and generated academic documents.</p>
+    <h2>5. التجارب التي أجريت</h2>
+    <p>تم توليد وتنفيذ 121 تجربة LTspice باستخدام نموذج University of Minnesota PTM 65-nm bulk CMOS. التجارب غطت المستوى الخلوي XOR ومستوى Hamming (11,7) ومستوى Extended Hamming (12,7)، مع sweeps للجهد والحرارة والتردد والحمل.</p>
+    <div class="table-wrap"><table><caption>ملخص التجارب والتحقق</caption><thead><tr><th>البند</th><th>القيمة</th><th>المعنى</th></tr></thead><tbody><tr><td>LTspice experiments</td><td>121</td><td>تجارب محاكاة مولدة ومحفوظة</td></tr><tr><td>Accepted measurements</td><td>118</td><td>نتائج قبلها التحقق الآلي</td></tr><tr><td>Rejected measurements</td><td>3</td><td>نقاط load منخفض مرفوضة بسبب overshoot</td></tr><tr><td>Data words verified</td><td>128</td><td>كل احتمالات دخل 7-bit</td></tr><tr><td>Single-bit error cases</td><td>1,536</td><td>كل الأخطاء المفردة تم تصحيحها في نموذج SEC-DED</td></tr><tr><td>Double-bit error cases</td><td>8,448</td><td>كل الأخطاء الثنائية تم اكتشافها</td></tr></tbody></table></div>
 
-    <h2>Experiments Performed</h2>
-    <p>The project generated and executed LTspice experiments using a PTM 65-nm predictive model. The sweeps cover supply voltage, temperature, frequency, and output load. The SEC-DED model was also exhaustively verified for 128 data words, 1,536 single-bit-error cases, and 8,448 double-bit-error cases.</p>
+    <h2>6. النتائج الأساسية</h2>
+    <p>أهم نتيجة أن Hybrid-B، وهو تصميم يستعمل FS-GDI في شبكات parity مع CMOS restoration فقط عند المخارج المرئية، كان أسرع مرشح في الحالة الاسمية لمسار D1-to-P0.</p>
+    <div class="table-wrap"><table><caption>الحالة الاسمية: 1.2 V, 27 C, 125 MHz, 10 fF</caption><thead><tr><th>Architecture</th><th>Power</th><th>D1-to-P0 delay</th><th>PDP</th><th>Transistors</th><th>Interpretation</th></tr></thead><tbody><tr><td>CMOS</td><td>27.024 uW</td><td>344.947 ps</td><td>9.322 fJ</td><td>264</td><td>مرجع full-swing تقليدي</td></tr><tr><td>FS-GDI</td><td>2.550 uW</td><td>429.062 ps</td><td>1.094 fJ</td><td>132</td><td>الأقل قدرة وPDP لكنه أبطأ في P0</td></tr><tr><td>Hybrid-A</td><td>25.837 uW</td><td>278.783 ps</td><td>7.203 fJ</td><td>220</td><td>استعادة ثقيلة عند كل XOR</td></tr><tr><td>Hybrid-B</td><td>11.203 uW</td><td>215.846 ps</td><td>2.418 fJ</td><td>152</td><td>الأسرع، وحل وسط بين السرعة والطاقة</td></tr></tbody></table></div>
+    <p>مقارنة بـ CMOS، حقق Hybrid-B تحسنًا تقريبيًا مقداره 58.54% في القدرة، 37.43% في التأخير، 74.06% في PDP، و42.42% في عدد الترانزستورات. لكن المشروع لا يدعي أن Hybrid-B هو الأفضل في كل شيء؛ FS-GDI بقي الأفضل في القدرة وPDP.</p>
 
-    <h2>Findings</h2>
-    <p>At the nominal condition of 1.2 V, 27 C, 125 MHz, and 10 fF, Hybrid-B reached approximately 11.203 uW, 215.846 ps D1-to-P0 delay, 2.418 fJ PDP, and 152 transistors. Relative to CMOS, this corresponds to 58.54% lower power, 37.43% lower delay, 74.06% lower PDP, and 42.42% fewer transistors.</p>
-    <p>The result is a trade-off rather than a universal superiority claim. Unbuffered FS-GDI remains the lowest simulated power and PDP option, while Hybrid-B is the speed-oriented selective-restoration candidate.</p>
+    <h2>7. الوثائق التي تم إعدادها أو تحديثها</h2>
+    <p>تم إعداد مجموعة وثائق تغطي الأدبيات، الفجوة البحثية، مراجعة الورقة الأساسية، التصميم المقترح، منهجية LTspice، نموذج 65-nm، تعريفات القياس، أدوات البحث، دليل المستودع، قابلية إعادة الإنتاج، نتائج المحاكاة، تحقق SEC-DED، البنية التقنية، وخطة النشر. كل وثيقة أكاديمية لها نسخة PDF ونسخة Word قابلة للتعديل.</p>
 
-    <h2>Scientific Boundaries</h2>
-    <p>The project does not claim fabrication, measured silicon, foundry sign-off, peer review, publication acceptance, or post-layout extraction. Remaining work includes supervisor review, university front matter, and an optional foundry-PDK or second-simulator cross-check.</p>
+    <h2>8. حدود المشروع وما لم يتم ادعاؤه</h2>
+    <p>المشروع لا يدعي تصنيع الشريحة، ولا قياسات silicon فعلية، ولا post-layout extraction، ولا foundry sign-off، ولا قبول نشر نهائي. النتائج مبنية على LTspice وPTM predictive model، ولذلك تبقى نتائج بحثية قابلة للمراجعة وليست نتائج تصنيع.</p>
 
+    <h2>9. سجل تفصيلي للمجهود البحثي</h2>
+    <p>هذا السجل يوضح العمل خطوة بخطوة: ماذا تم عمله، لماذا كان مهمًا، وما الملف الذي يثبت أو يشرح تلك الخطوة.</p>
+    <div class="table-wrap"><table><caption>تفصيل المجهود والدليل المرتبط به</caption><thead><tr><th>السؤال</th><th>ما الذي تم عمله؟</th><th>لماذا مهم؟</th><th>الدليل المباشر</th></tr></thead><tbody>
+      <tr><td>هل تم تحديث المصادر؟</td><td>تم تنظيم مصادر Hamming وGDI وFS-GDI وECC في survey وBibTeX، مع فصل المصادر المؤسسة عن المصادر الداعمة.</td><td>هذا يمنع الاعتماد على مصدر واحد، ويوضح مكان الورقة الأساسية داخل المجال البحثي.</td><td><a href="literature.html">Literature page</a>، <a href="references/references.bib">references.bib</a>، <a href="literature/survey/survey.csv">survey.csv</a></td></tr>
+      <tr><td>هل تمت مراجعة الورقة الأساسية؟</td><td>تم تحليل ورقة Hamming (11,7) FS-GDI وتسجيل ما يمكن إعادة بنائه وما لا يمكن الجزم به بسبب نقص netlists وتفاصيل القياس.</td><td>المراجعة حددت حدود الادعاء العلمي قبل تقديم أي تصميم ممتد.</td><td><a href="docs/original-paper-audit.md">Original paper audit</a>، <a href="pdf/research/Original_Paper_Audit.pdf">PDF</a>، <a href="pdf/research/Original_Paper_Audit.docx">Word</a></td></tr>
+      <tr><td>هل توجد فجوة بحثية واضحة؟</td><td>تم تعريف الفجوة حول مقارنة قابلة للتكرار لتصميم Extended Hamming (12,7) على مستوى الترانزستور وبنفس شروط القياس.</td><td>هذا يحول المشروع من إعادة عرض إلى مساهمة محددة قابلة للفحص.</td><td><a href="research-gap.html">Research gap page</a>، <a href="docs/research-gap.md">research-gap.md</a></td></tr>
+      <tr><td>هل تم بناء تصميم جديد؟</td><td>تم بناء Extended Hamming (12,7) وإضافة Hybrid-A وHybrid-B بجانب CMOS وFS-GDI.</td><td>التصميم الممتد يختبر SEC-DED ويقارن بين السرعة والطاقة وعدد الترانزستورات.</td><td><a href="proposed-design.html">Proposed design</a>، <a href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf">design PDF</a></td></tr>
+      <tr><td>هل أجريت تجارب فعلية؟</td><td>تم توليد وتشغيل 121 تجربة LTspice، وقبول 118 نتيجة بعد التحقق، ورفض 3 نقاط منخفضة الحمل بسبب overshoot.</td><td>التجارب تغطي خلايا XOR والـ encoders وsweeps للجهد والحرارة والتردد والحمل.</td><td><a href="data/experiments.json">experiments.json</a>، <a href="data/processed/results.csv">results.csv</a>، <a href="simulations.html">Simulations</a></td></tr>
+      <tr><td>هل تم تحليل النتائج؟</td><td>تم حساب power وdelay وPDP وenergy per operation وswing وعدد الترانزستورات ومقارنة المعماريات.</td><td>التحليل يميز بين أقل قدرة، أقل PDP، وأسرع مسار، بدل نتيجة واحدة مبسطة.</td><td><a href="results.html">Results page</a>، <a href="pdf/simulation/Simulation_Results_and_Analysis.pdf">results PDF</a></td></tr>
+      <tr><td>هل تم التحقق المنطقي؟</td><td>تم فحص 128 كلمة بيانات، و1,536 حالة خطأ مفرد، و8,448 حالة خطأ ثنائي.</td><td>هذا يثبت أن نموذج SEC-DED يصحح الأخطاء المفردة ويكتشف الأخطاء الثنائية في النموذج المرجعي.</td><td><a href="results/functional_verification.json">functional_verification.json</a>، <a href="scripts/verify_secded.py">verify_secded.py</a></td></tr>
+      <tr><td>هل توجد وثائق قابلة للتحميل؟</td><td>تم إعداد 15 ملف PDF أكاديمي، وكل ملف له نسخة Word قابلة للتعديل بنفس الاسم.</td><td>القارئ يستطيع قراءة النسخة النهائية أو تعديل ملف Word عند الحاجة.</td><td><a href="pdf-library.html">PDF and Word Library</a>، <a href="download-center.html">Download Center</a></td></tr>
+      <tr><td>هل يمكن إعادة العمل؟</td><td>تم حفظ scripts، netlists، logs، البيانات، التقارير، والرسومات.</td><td>هذا يجعل النتائج قابلة للتتبع من ملفات المحاكاة إلى الجداول والرسومات.</td><td><a href="pdf/reproducibility/Reproducibility_Guide.pdf">Reproducibility guide</a>، <a href="scripts/results_pipeline.py">results_pipeline.py</a></td></tr>
+    </tbody></table></div>
+
+    <h2>10. كيف يتتبع القارئ النتيجة من البداية للنهاية؟</h2>
+    <ol>
+      <li>يبدأ من <a href="docs/research-plan.md">خطة البحث</a> لفهم تسلسل reproduce-extend-test.</li>
+      <li>يفتح <a href="docs/original-paper-audit.md">مراجعة الورقة الأساسية</a> لمعرفة حدود المصدر الأصلي.</li>
+      <li>يراجع <a href="docs/research-gap.md">الفجوة البحثية</a> لفهم سبب بناء Extended Hamming (12,7).</li>
+      <li>ينتقل إلى <a href="proposed-design.html">التصميم المقترح</a> لمعادلات parity وخطة Hybrid-B.</li>
+      <li>يفتح <a href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir">ملف LTspice الاسمي لـ Hybrid-B</a> ثم <a href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log">الـ log المرتبط به</a>.</li>
+      <li>يقارن القيم في <a href="data/processed/nominal_comparison.csv">nominal_comparison.csv</a> مع صفحة <a href="results.html">النتائج</a>.</li>
+      <li>يفتح <a href="pdf/simulation/Simulation_Results_and_Analysis.pdf">وثيقة تحليل النتائج</a> أو <a href="pdf/simulation/Simulation_Results_and_Analysis.docx">نسخة Word</a> لمراجعة التفسير الأكاديمي.</li>
+      <li>يتأكد من حالة التقدم من <a href="docs/progress.md">progress.md</a>، بما في ذلك ما اكتمل وما بقي قيد المتابعة.</li>
+    </ol>
   </section>
 
-  <section aria-labelledby="links">
-    <h2 id="links">Complete Artifact Links</h2>
+  <section aria-labelledby="english-overview">
+    <p class="eyebrow">English reference</p>
+    <h2 id="english-overview">What Did the Researcher Do?</h2>
+    <p class="lede">This page is the complete bilingual reference for the project. It explains the research effort, source review, documentation updates, experiments, results, evidence limits, and direct artifact links in one place.</p>
+    <p class="status"><strong>Overall summary:</strong> The project follows a full research chain: literature review, baseline audit, gap definition, logic implementation, transistor-level simulation, result validation, figure generation, academic documentation, and public release through a traceable website.</p>
 
-    <h3>Site Pages</h3>
+    <h2>1. Starting Point and Research Problem</h2>
+    <p>The work starts from the observation that lower-transistor XOR logic can reduce switched capacitance, but transistor count alone does not prove better power, delay, energy, swing, or robustness. The project therefore evaluates CMOS, GDI, FS-GDI, and selective hybrid encoder implementations under common measurement definitions.</p>
+    <p>The baseline Hamming (11,7) FS-GDI paper was reviewed, then the study was extended to Extended Hamming (12,7) with an overall parity bit for SEC-DED evaluation.</p>
+
+    <h2>2. Literature and Source Review</h2>
+    <ul>
+      <li>Foundational Hamming-code theory was used as the mathematical base.</li>
+      <li>Foundational GDI and FS-GDI work was reviewed for circuit-level motivation.</li>
+      <li>Recent low-power logic, ECC, and Hamming encoder literature was organized in a structured survey.</li>
+      <li>Bibliographic records were retained in BibTeX and CSV/Markdown survey files.</li>
+      <li>The baseline paper was audited for reproducibility limits, missing netlists, unspecified load/activity details, and inconsistent improvement percentages.</li>
+    </ul>
+
+    <h2>3. Research Gap</h2>
+    <p>The gap is not that Hamming codes or GDI logic are new. The narrower contribution is a reproducible transistor-level comparison for Extended Hamming (12,7) encoders using one predictive model, one activity pattern, explicit D1-to-P0 timing, automated measurement extraction, controlled sweeps, and retained rejected results.</p>
+
+    <h2>4. Implemented Research Artifacts</h2>
+    <ul>
+      <li>Python reference model for Hamming (11,7), Extended Hamming (12,7), and SEC-DED verification.</li>
+      <li>SystemVerilog reference encoder and testbench.</li>
+      <li>LTspice circuit library for CMOS, GDI, FS-GDI, and hybrid cells.</li>
+      <li>Reproducible netlist generator for the simulation matrix.</li>
+      <li>Result-processing pipeline for LTspice logs, derived metrics, and validation status.</li>
+      <li>Publication figures, CSV/JSON datasets, PDF documents, editable Word documents, and public website pages.</li>
+    </ul>
+
+    <h2>5. Experiments Performed</h2>
+    <p>The project generated and executed 121 LTspice experiments using the University of Minnesota PTM 65-nm bulk-CMOS predictive model. The matrix covers XOR cells, Hamming (11,7), and Extended Hamming (12,7), with sweeps over supply voltage, temperature, frequency, and output load.</p>
+    <div class="table-wrap"><table><caption>Experiment and verification summary</caption><thead><tr><th>Item</th><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td>LTspice experiments</td><td>121</td><td>Generated and retained simulation cases</td></tr><tr><td>Accepted measurements</td><td>118</td><td>Measurement sets accepted by validation</td></tr><tr><td>Rejected measurements</td><td>3</td><td>Low-load overshoot cases retained for audit</td></tr><tr><td>Data words verified</td><td>128</td><td>All 7-bit input words</td></tr><tr><td>Single-bit error cases</td><td>1,536</td><td>All corrected by the SEC-DED reference model</td></tr><tr><td>Double-bit error cases</td><td>8,448</td><td>All detected by the SEC-DED reference model</td></tr></tbody></table></div>
+
+    <h2>6. Main Findings</h2>
+    <p>The main result is that Hybrid-B, which combines FS-GDI parity networks with CMOS restoration only at externally observed parity outputs, is the fastest nominal Extended Hamming candidate on the D1-to-P0 path.</p>
+    <div class="table-wrap"><table><caption>Nominal condition: 1.2 V, 27 C, 125 MHz, 10 fF</caption><thead><tr><th>Architecture</th><th>Power</th><th>D1-to-P0 delay</th><th>PDP</th><th>Transistors</th><th>Interpretation</th></tr></thead><tbody><tr><td>CMOS</td><td>27.024 uW</td><td>344.947 ps</td><td>9.322 fJ</td><td>264</td><td>Full-swing reference</td></tr><tr><td>FS-GDI</td><td>2.550 uW</td><td>429.062 ps</td><td>1.094 fJ</td><td>132</td><td>Lowest power and PDP, slower P0 path</td></tr><tr><td>Hybrid-A</td><td>25.837 uW</td><td>278.783 ps</td><td>7.203 fJ</td><td>220</td><td>Heavy restoration at every XOR output</td></tr><tr><td>Hybrid-B</td><td>11.203 uW</td><td>215.846 ps</td><td>2.418 fJ</td><td>152</td><td>Fastest nominal candidate and a speed-energy compromise</td></tr></tbody></table></div>
+    <p>Relative to CMOS, Hybrid-B shows approximately 58.54% lower power, 37.43% lower delay, 74.06% lower PDP, and 42.42% fewer transistors. The result is a trade-off: unbuffered FS-GDI remains the lowest-power and lowest-PDP option, while Hybrid-B provides the strongest nominal speed result.</p>
+
+    <h2>7. Documentation Updated</h2>
+    <p>The project includes documents for the literature survey, research gap, baseline audit, proposed design, LTspice methodology, 65-nm model documentation, measurement definitions, software and research tools, repository guidance, reproducibility, simulation results, SEC-DED verification, technical architecture, and publication planning. Each academic document is available as PDF and editable Word.</p>
+
+    <h2>8. Evidence Boundaries</h2>
+    <p>The project does not claim fabrication, measured silicon, post-layout extraction, foundry sign-off, peer-reviewed acceptance, or final publication. The results are LTspice/PTM-based research outputs and should be read as reproducible simulation evidence rather than manufactured-silicon evidence.</p>
+
+    <h2>9. Detailed Work Record</h2>
+    <p>This record answers the practical review questions directly: what was reviewed, what was updated, which experiments were performed, what was concluded, and where each supporting file can be opened.</p>
+    <div class="table-wrap"><table><caption>Research work and linked evidence</caption><thead><tr><th>Question</th><th>Work performed</th><th>Why it matters</th><th>Direct evidence</th></tr></thead><tbody>
+      <tr><td>Were sources updated?</td><td>Hamming, GDI, FS-GDI, ECC, and low-power logic sources were organized in a survey and BibTeX library.</td><td>The project is placed in a wider technical context rather than relying on one baseline paper.</td><td><a href="literature.html">Literature page</a>, <a href="references/references.bib">references.bib</a>, <a href="literature/survey/survey.csv">survey.csv</a></td></tr>
+      <tr><td>Was the baseline paper reviewed?</td><td>The Hamming (11,7) FS-GDI paper was audited for equations, reproducibility, missing implementation details, and reported improvement limits.</td><td>The audit defines what can be reconstructed and what should remain a stated limitation.</td><td><a href="docs/original-paper-audit.md">Original paper audit</a>, <a href="pdf/research/Original_Paper_Audit.pdf">PDF</a>, <a href="pdf/research/Original_Paper_Audit.docx">Word</a></td></tr>
+      <tr><td>Was a research gap defined?</td><td>The gap was narrowed to reproducible transistor-level Extended Hamming (12,7) comparison under common conditions.</td><td>This frames the contribution as measurable and evidence-bounded.</td><td><a href="research-gap.html">Research gap page</a>, <a href="docs/research-gap.md">research-gap.md</a></td></tr>
+      <tr><td>Was a design implemented?</td><td>Extended Hamming (12,7), Hybrid-A, Hybrid-B, CMOS, and FS-GDI candidates were implemented for comparison.</td><td>The project can compare speed, energy, swing, and transistor count across concrete architectures.</td><td><a href="proposed-design.html">Proposed design</a>, <a href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf">design PDF</a></td></tr>
+      <tr><td>Were experiments performed?</td><td>121 LTspice experiments were generated and run; 118 measurements were accepted and 3 retained as rejected low-load overshoot cases.</td><td>The retained matrix supports both nominal comparison and controlled sensitivity sweeps.</td><td><a href="data/experiments.json">experiments.json</a>, <a href="data/processed/results.csv">results.csv</a>, <a href="simulations.html">Simulations</a></td></tr>
+      <tr><td>Were results analyzed?</td><td>Power, delay, PDP, energy per operation, swing, and transistor counts were extracted and compared.</td><td>The analysis separates the fastest architecture from the lowest-power and lowest-PDP architecture.</td><td><a href="results.html">Results page</a>, <a href="pdf/simulation/Simulation_Results_and_Analysis.pdf">results PDF</a></td></tr>
+      <tr><td>Was functional behavior verified?</td><td>128 data words, 1,536 single-bit errors, and 8,448 double-bit errors were checked.</td><td>The SEC-DED reference model corrects every single-bit case and detects every double-bit case in the verification set.</td><td><a href="results/functional_verification.json">functional_verification.json</a>, <a href="scripts/verify_secded.py">verify_secded.py</a></td></tr>
+      <tr><td>Are downloadable documents available?</td><td>15 academic PDFs were prepared, each with a matching editable Word document.</td><td>Readers can use fixed-layout PDFs or editable DOCX files for review and revision.</td><td><a href="pdf-library.html">PDF and Word Library</a>, <a href="download-center.html">Download Center</a></td></tr>
+      <tr><td>Can the work be traced?</td><td>Scripts, netlists, logs, processed data, reports, and figures were retained.</td><td>The reader can trace the nominal claims from circuit files to logs, CSV values, figures, and documents.</td><td><a href="pdf/reproducibility/Reproducibility_Guide.pdf">Reproducibility guide</a>, <a href="scripts/results_pipeline.py">results_pipeline.py</a></td></tr>
+    </tbody></table></div>
+
+    <h2>10. End-to-End Trace Route</h2>
+    <ol>
+      <li>Start with the <a href="docs/research-plan.md">research plan</a> to see the reproduce-extend-test sequence.</li>
+      <li>Open the <a href="docs/original-paper-audit.md">baseline audit</a> to understand source limitations.</li>
+      <li>Read the <a href="docs/research-gap.md">research gap</a> to see why Extended Hamming (12,7) was selected.</li>
+      <li>Review the <a href="proposed-design.html">proposed design</a> for parity equations and the Hybrid-B rationale.</li>
+      <li>Inspect the nominal Hybrid-B <a href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir">LTspice circuit</a> and its <a href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log">simulation log</a>.</li>
+      <li>Compare extracted values in <a href="data/processed/nominal_comparison.csv">nominal_comparison.csv</a> with the <a href="results.html">results page</a>.</li>
+      <li>Use the <a href="pdf/simulation/Simulation_Results_and_Analysis.pdf">results PDF</a> or <a href="pdf/simulation/Simulation_Results_and_Analysis.docx">editable Word version</a> for the academic explanation.</li>
+      <li>Check <a href="docs/progress.md">progress.md</a> for completed items and remaining scientific or administrative checks.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="link-map">
+    <h2 id="link-map">Complete Link Map</h2>
+
+    <h3>Primary Website Pages</h3>
     <div class="grid">
-      <article class="card"><h3>Home</h3><p>Main research portal.</p><a class="button primary" href="index.html">Open</a></article>
-      <article class="card"><h3>Thesis</h3><p>Chaptered online thesis.</p><a class="button primary" href="thesis/index.html">Open</a></article>
-      <article class="card"><h3>Literature</h3><p>Survey page.</p><a class="button primary" href="literature.html">Open</a></article>
-      <article class="card"><h3>Research Gap</h3><p>Gap and contribution page.</p><a class="button primary" href="research-gap.html">Open</a></article>
-      <article class="card"><h3>Design</h3><p>Proposed hybrid architecture.</p><a class="button primary" href="proposed-design.html">Open</a></article>
-      <article class="card"><h3>Simulations</h3><p>LTspice methodology.</p><a class="button primary" href="simulations.html">Open</a></article>
-      <article class="card"><h3>Results</h3><p>Validated numerical results.</p><a class="button primary" href="results.html">Open</a></article>
-      <article class="card"><h3>Documentation</h3><p>Technical index and sources.</p><a class="button primary" href="technical-documentation.html">Open</a></article>
-      <article class="card"><h3>PDF/Word Library</h3><p>Academic document library.</p><a class="button primary" href="pdf-library.html">Open</a></article>
-      <article class="card"><h3>Download Center</h3><p>All public downloads.</p><a class="button primary" href="download-center.html">Open</a></article>
-      <article class="card"><h3>References</h3><p>BibTeX and source records.</p><a class="button primary" href="references.html">Open</a></article>
+      <article class="card"><h3>Home</h3><p>Main project portal.</p><a class="button primary" href="index.html">Open</a></article>
+      <article class="card"><h3>Online Thesis</h3><p>Chaptered web thesis.</p><a class="button primary" href="thesis/index.html">Open</a></article>
+      <article class="card"><h3>Thesis Chapters</h3><p>Chapter index.</p><a class="button primary" href="thesis/chapters/index.html">Open</a></article>
+      <article class="card"><h3>Literature</h3><p>Survey and source relationship.</p><a class="button primary" href="literature.html">Open</a></article>
+      <article class="card"><h3>Research Gap</h3><p>Gap and contribution boundary.</p><a class="button primary" href="research-gap.html">Open</a></article>
+      <article class="card"><h3>Proposed Design</h3><p>Hybrid-B architecture and rationale.</p><a class="button primary" href="proposed-design.html">Open</a></article>
+      <article class="card"><h3>Simulations</h3><p>LTspice setup and reproducibility.</p><a class="button primary" href="simulations.html">Open</a></article>
+      <article class="card"><h3>Results</h3><p>Validated results and figures.</p><a class="button primary" href="results.html">Open</a></article>
+      <article class="card"><h3>Technical Documentation</h3><p>Technical index and evidence sources.</p><a class="button primary" href="technical-documentation.html">Open</a></article>
+      <article class="card"><h3>PDF and Word Library</h3><p>Academic documents in both formats.</p><a class="button primary" href="pdf-library.html">Open</a></article>
+      <article class="card"><h3>Download Center</h3><p>Central artifact download page.</p><a class="button primary" href="download-center.html">Open</a></article>
+      <article class="card"><h3>References</h3><p>BibTeX and survey sources.</p><a class="button primary" href="references.html">Open</a></article>
     </div>
 
-    <h3>Research Notes and QA Sources</h3>
+    <h3>Research Notes and Markdown Sources</h3>
     <div class="grid">
-      <article class="card"><h3>Research Gap</h3><a class="button primary" href="docs/research-gap.md">MD</a></article>
-      <article class="card"><h3>Research Plan</h3><a class="button primary" href="docs/research-plan.md">MD</a></article>
-      <article class="card"><h3>Progress and Quality Gate</h3><a class="button primary" href="docs/progress.md">MD</a></article>
-      <article class="card"><h3>Experiment Plan</h3><a class="button primary" href="docs/experiment-plan.md">MD</a></article>
-      <article class="card"><h3>Decisions</h3><a class="button primary" href="docs/decisions.md">MD</a></article>
-      <article class="card"><h3>Simulation Methodology</h3><a class="button primary" href="docs/simulation-methodology.md">MD</a></article>
-      <article class="card"><h3>Measurement Definitions</h3><a class="button primary" href="docs/measurement-definitions.md">MD</a></article>
-      <article class="card"><h3>Model Documentation</h3><a class="button primary" href="docs/model-documentation.md">MD</a></article>
-      <article class="card"><h3>Original Paper Audit</h3><a class="button primary" href="docs/original-paper-audit.md">MD</a></article>
-      <article class="card"><h3>Publication Plan</h3><a class="button primary" href="docs/publication-plan.md">MD</a></article>
-      <article class="card"><h3>Paper Outline</h3><a class="button primary" href="docs/paper-outline.md">MD</a></article>
-      <article class="card"><h3>PDF and Word Inventory</h3><a class="button primary" href="docs/pdf-inventory.md">MD</a></article>
-      <article class="card"><h3>Public Release Report</h3><a class="button primary" href="docs/public-release-report.md">MD</a></article>
-      <article class="card"><h3>Website Quality Report</h3><a class="button primary" href="docs/website-quality-report.md">MD</a></article>
+      <article class="card"><h3>Research Gap</h3><p>Gap, contribution, and evidence boundary.</p><a class="button primary" href="docs/research-gap.md">Open MD</a></article>
+      <article class="card"><h3>Research Plan</h3><p>Reproduce, extend, test sequence.</p><a class="button primary" href="docs/research-plan.md">Open MD</a></article>
+      <article class="card"><h3>Progress and Quality Gate</h3><p>Completed and pending work.</p><a class="button primary" href="docs/progress.md">Open MD</a></article>
+      <article class="card"><h3>Experiment Plan</h3><p>Simulation matrix and variation plan.</p><a class="button primary" href="docs/experiment-plan.md">Open MD</a></article>
+      <article class="card"><h3>Research Decisions</h3><p>Recorded methodological choices.</p><a class="button primary" href="docs/decisions.md">Open MD</a></article>
+      <article class="card"><h3>Simulation Methodology</h3><p>LTspice conditions and traceability.</p><a class="button primary" href="docs/simulation-methodology.md">Open MD</a></article>
+      <article class="card"><h3>Measurement Definitions</h3><p>Power, delay, PDP, energy, swing.</p><a class="button primary" href="docs/measurement-definitions.md">Open MD</a></article>
+      <article class="card"><h3>Model Documentation</h3><p>PTM 65-nm source and limits.</p><a class="button primary" href="docs/model-documentation.md">Open MD</a></article>
+      <article class="card"><h3>Original Paper Audit</h3><p>Baseline audit and reproduction limits.</p><a class="button primary" href="docs/original-paper-audit.md">Open MD</a></article>
+      <article class="card"><h3>Publication Plan</h3><p>Manuscript preparation plan.</p><a class="button primary" href="docs/publication-plan.md">Open MD</a></article>
+      <article class="card"><h3>Paper Outline</h3><p>Manuscript outline.</p><a class="button primary" href="docs/paper-outline.md">Open MD</a></article>
+      <article class="card"><h3>PDF and Word Inventory</h3><p>Complete document list.</p><a class="button primary" href="docs/pdf-inventory.md">Open MD</a></article>
+      <article class="card"><h3>Public Release Report</h3><p>Release readiness and retained artifacts.</p><a class="button primary" href="docs/public-release-report.md">Open MD</a></article>
+      <article class="card"><h3>Website Quality Report</h3><p>Site QA and link checks.</p><a class="button primary" href="docs/website-quality-report.md">Open MD</a></article>
     </div>
 
-    <h3>Academic Documents</h3>
+    <h3>Academic PDF and Word Documents</h3>
     <div class="grid">
-      <article class="card"><h3>Thesis Draft</h3><div class="actions"><a class="button primary" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf">PDF</a><a class="button" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.docx" download>Word</a></div></article>
-      <article class="card"><h3>Literature Survey</h3><div class="actions"><a class="button primary" href="pdf/research/Literature_Survey.pdf">PDF</a><a class="button" href="pdf/research/Literature_Survey.docx" download>Word</a></div></article>
-      <article class="card"><h3>Research Gap and Contribution</h3><div class="actions"><a class="button primary" href="pdf/research/Research_Gap_and_Contribution.pdf">PDF</a><a class="button" href="pdf/research/Research_Gap_and_Contribution.docx" download>Word</a></div></article>
-      <article class="card"><h3>Original Paper Audit</h3><div class="actions"><a class="button primary" href="pdf/research/Original_Paper_Audit.pdf">PDF</a><a class="button" href="pdf/research/Original_Paper_Audit.docx" download>Word</a></div></article>
-      <article class="card"><h3>Proposed Hybrid Encoder</h3><div class="actions"><a class="button primary" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf">PDF</a><a class="button" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx" download>Word</a></div></article>
-      <article class="card"><h3>LTspice Methodology</h3><div class="actions"><a class="button primary" href="pdf/technical/LTspice_Simulation_Methodology.pdf">PDF</a><a class="button" href="pdf/technical/LTspice_Simulation_Methodology.docx" download>Word</a></div></article>
-      <article class="card"><h3>65-nm Device Model</h3><div class="actions"><a class="button primary" href="pdf/technical/65nm_Device_Model_Documentation.pdf">PDF</a><a class="button" href="pdf/technical/65nm_Device_Model_Documentation.docx" download>Word</a></div></article>
-      <article class="card"><h3>Measurement Definitions</h3><div class="actions"><a class="button primary" href="pdf/technical/Simulation_Measurement_Definitions.pdf">PDF</a><a class="button" href="pdf/technical/Simulation_Measurement_Definitions.docx" download>Word</a></div></article>
-      <article class="card"><h3>Software and Tools</h3><div class="actions"><a class="button primary" href="pdf/technical/Software_and_Research_Tools.pdf">PDF</a><a class="button" href="pdf/technical/Software_and_Research_Tools.docx" download>Word</a></div></article>
-      <article class="card"><h3>Repository Guide</h3><div class="actions"><a class="button primary" href="pdf/reproducibility/GitHub_Public_Repository_Guide.pdf">PDF</a><a class="button" href="pdf/reproducibility/GitHub_Public_Repository_Guide.docx" download>Word</a></div></article>
-      <article class="card"><h3>Reproducibility Guide</h3><div class="actions"><a class="button primary" href="pdf/reproducibility/Reproducibility_Guide.pdf">PDF</a><a class="button" href="pdf/reproducibility/Reproducibility_Guide.docx" download>Word</a></div></article>
-      <article class="card"><h3>Simulation Results</h3><div class="actions"><a class="button primary" href="pdf/simulation/Simulation_Results_and_Analysis.pdf">PDF</a><a class="button" href="pdf/simulation/Simulation_Results_and_Analysis.docx" download>Word</a></div></article>
-      <article class="card"><h3>SEC-DED Verification</h3><div class="actions"><a class="button primary" href="pdf/simulation/SEC-DED_Verification_Documentation.pdf">PDF</a><a class="button" href="pdf/simulation/SEC-DED_Verification_Documentation.docx" download>Word</a></div></article>
-      <article class="card"><h3>Technical Architecture</h3><div class="actions"><a class="button primary" href="pdf/technical/Project_Technical_Architecture.pdf">PDF</a><a class="button" href="pdf/technical/Project_Technical_Architecture.docx" download>Word</a></div></article>
-      <article class="card"><h3>Publication Plan and Outline</h3><div class="actions"><a class="button primary" href="pdf/publication/Publication_Plan_and_Manuscript_Outline.pdf">PDF</a><a class="button" href="pdf/publication/Publication_Plan_and_Manuscript_Outline.docx" download>Word</a></div></article>
+      <article class="card"><h3>Thesis Draft</h3><p>Integrated working thesis.</p><div class="actions"><a class="button primary" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf">PDF</a><a class="button" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.docx" download>Word</a></div></article>
+      <article class="card"><h3>Literature Survey</h3><p>Survey method, table, and gap.</p><div class="actions"><a class="button primary" href="pdf/research/Literature_Survey.pdf">PDF</a><a class="button" href="pdf/research/Literature_Survey.docx" download>Word</a></div></article>
+      <article class="card"><h3>Research Gap and Contribution</h3><p>Evidence-bounded contribution.</p><div class="actions"><a class="button primary" href="pdf/research/Research_Gap_and_Contribution.pdf">PDF</a><a class="button" href="pdf/research/Research_Gap_and_Contribution.docx" download>Word</a></div></article>
+      <article class="card"><h3>Original Paper Audit</h3><p>Baseline paper audit.</p><div class="actions"><a class="button primary" href="pdf/research/Original_Paper_Audit.pdf">PDF</a><a class="button" href="pdf/research/Original_Paper_Audit.docx" download>Word</a></div></article>
+      <article class="card"><h3>Proposed Hybrid Encoder</h3><p>Design equations and architecture.</p><div class="actions"><a class="button primary" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf">PDF</a><a class="button" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx" download>Word</a></div></article>
+      <article class="card"><h3>LTspice Methodology</h3><p>Simulation setup and workflow.</p><div class="actions"><a class="button primary" href="pdf/technical/LTspice_Simulation_Methodology.pdf">PDF</a><a class="button" href="pdf/technical/LTspice_Simulation_Methodology.docx" download>Word</a></div></article>
+      <article class="card"><h3>65-nm Device Model</h3><p>PTM documentation.</p><div class="actions"><a class="button primary" href="pdf/technical/65nm_Device_Model_Documentation.pdf">PDF</a><a class="button" href="pdf/technical/65nm_Device_Model_Documentation.docx" download>Word</a></div></article>
+      <article class="card"><h3>Measurement Definitions</h3><p>Metric definitions.</p><div class="actions"><a class="button primary" href="pdf/technical/Simulation_Measurement_Definitions.pdf">PDF</a><a class="button" href="pdf/technical/Simulation_Measurement_Definitions.docx" download>Word</a></div></article>
+      <article class="card"><h3>Software and Research Tools</h3><p>Tool roles and sources.</p><div class="actions"><a class="button primary" href="pdf/technical/Software_and_Research_Tools.pdf">PDF</a><a class="button" href="pdf/technical/Software_and_Research_Tools.docx" download>Word</a></div></article>
+      <article class="card"><h3>GitHub Repository Guide</h3><p>Repository access and citation.</p><div class="actions"><a class="button primary" href="pdf/reproducibility/GitHub_Public_Repository_Guide.pdf">PDF</a><a class="button" href="pdf/reproducibility/GitHub_Public_Repository_Guide.docx" download>Word</a></div></article>
+      <article class="card"><h3>Reproducibility Guide</h3><p>End-to-end rebuild procedure.</p><div class="actions"><a class="button primary" href="pdf/reproducibility/Reproducibility_Guide.pdf">PDF</a><a class="button" href="pdf/reproducibility/Reproducibility_Guide.docx" download>Word</a></div></article>
+      <article class="card"><h3>Simulation Results</h3><p>Accepted results and sweeps.</p><div class="actions"><a class="button primary" href="pdf/simulation/Simulation_Results_and_Analysis.pdf">PDF</a><a class="button" href="pdf/simulation/Simulation_Results_and_Analysis.docx" download>Word</a></div></article>
+      <article class="card"><h3>SEC-DED Verification</h3><p>Logic verification evidence.</p><div class="actions"><a class="button primary" href="pdf/simulation/SEC-DED_Verification_Documentation.pdf">PDF</a><a class="button" href="pdf/simulation/SEC-DED_Verification_Documentation.docx" download>Word</a></div></article>
+      <article class="card"><h3>Technical Architecture</h3><p>Artifact flow and provenance.</p><div class="actions"><a class="button primary" href="pdf/technical/Project_Technical_Architecture.pdf">PDF</a><a class="button" href="pdf/technical/Project_Technical_Architecture.docx" download>Word</a></div></article>
+      <article class="card"><h3>Publication Plan and Outline</h3><p>Manuscript planning.</p><div class="actions"><a class="button primary" href="pdf/publication/Publication_Plan_and_Manuscript_Outline.pdf">PDF</a><a class="button" href="pdf/publication/Publication_Plan_and_Manuscript_Outline.docx" download>Word</a></div></article>
     </div>
 
-    <h3>Data, Code, and Simulation Evidence</h3>
+    <h3>Data and Processed Evidence</h3>
     <div class="grid">
-      <article class="card"><h3>Experiment Manifest</h3><a class="button primary" href="data/experiments.json">JSON</a></article>
-      <article class="card"><h3>Processed Results</h3><a class="button primary" href="data/processed/results.csv">CSV</a></article>
-      <article class="card"><h3>Nominal Comparison</h3><a class="button primary" href="data/processed/nominal_comparison.csv">CSV</a></article>
-      <article class="card"><h3>Functional Verification</h3><a class="button primary" href="results/functional_verification.json">JSON</a></article>
-      <article class="card"><h3>Hamming Vectors</h3><div class="actions"><a class="button primary" href="data/csv/hamming_vectors.csv">CSV</a><a class="button" href="data/json/hamming_vectors.json">JSON</a></div></article>
-      <article class="card"><h3>PTM 65-nm Model</h3><a class="button primary" href="models/65nm_bulk.pm">Model</a></article>
-      <article class="card"><h3>Circuit Library</h3><a class="button primary" href="ltspice/circuits.lib">LIB</a></article>
-      <article class="card"><h3>Hybrid-B Nominal Netlist</h3><div class="actions"><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir">CIR</a><a class="button" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log">LOG</a></div></article>
-      <article class="card"><h3>Python Model</h3><a class="button primary" href="scripts/hamming.py">PY</a></article>
-      <article class="card"><h3>SEC-DED Script</h3><a class="button primary" href="scripts/verify_secded.py">PY</a></article>
-      <article class="card"><h3>LTspice Builder</h3><a class="button primary" href="scripts/build_ltspice.py">PY</a></article>
-      <article class="card"><h3>LTspice Runner</h3><a class="button primary" href="scripts/run_ltspice.py">PY</a></article>
-      <article class="card"><h3>Results Pipeline</h3><a class="button primary" href="scripts/results_pipeline.py">PY</a></article>
-      <article class="card"><h3>Summary Script</h3><a class="button primary" href="scripts/summarize_results.py">PY</a></article>
-      <article class="card"><h3>Figure Generator</h3><a class="button primary" href="scripts/generate_figures.py">PY</a></article>
-      <article class="card"><h3>PDF Generator</h3><a class="button primary" href="scripts/generate_academic_pdfs.py">PY</a></article>
-      <article class="card"><h3>Word Generator</h3><a class="button primary" href="scripts/generate_academic_word.py">PY</a></article>
-      <article class="card"><h3>Link Checker</h3><a class="button primary" href="scripts/link_check.py">PY</a></article>
-      <article class="card"><h3>Secret Scan</h3><a class="button primary" href="scripts/secret_scan.py">PY</a></article>
-      <article class="card"><h3>Verilog Encoder</h3><a class="button primary" href="verification/verilog/hamming_encoders.sv">SV</a></article>
-      <article class="card"><h3>Verilog Testbench</h3><a class="button primary" href="verification/verilog/tb_hamming_encoders.sv">SV</a></article>
-      <article class="card"><h3>Power Figure</h3><a class="button primary" href="figures/eh127_nominal_power.png">PNG</a></article>
-      <article class="card"><h3>Delay Figure</h3><a class="button primary" href="figures/eh127_nominal_delay.png">PNG</a></article>
-      <article class="card"><h3>PDP Figure</h3><a class="button primary" href="figures/eh127_nominal_pdp.png">PNG</a></article>
+      <article class="card"><h3>Experiment Manifest</h3><p>All experiment identifiers and conditions.</p><a class="button primary" href="data/experiments.json">JSON</a></article>
+      <article class="card"><h3>Processed Results</h3><p>Accepted and rejected measurements.</p><a class="button primary" href="data/processed/results.csv">CSV</a></article>
+      <article class="card"><h3>Nominal Comparison</h3><p>Nominal architecture table.</p><a class="button primary" href="data/processed/nominal_comparison.csv">CSV</a></article>
+      <article class="card"><h3>Functional Verification</h3><p>SEC-DED verification result.</p><a class="button primary" href="results/functional_verification.json">JSON</a></article>
+      <article class="card"><h3>Hamming Vectors</h3><p>Reusable input vectors.</p><div class="actions"><a class="button primary" href="data/csv/hamming_vectors.csv">CSV</a><a class="button" href="data/json/hamming_vectors.json">JSON</a></div></article>
+      <article class="card"><h3>Thesis Summary Data</h3><p>Data used by the web thesis.</p><a class="button primary" href="thesis/data/summary.json">JSON</a></article>
+      <article class="card"><h3>Thesis Results Data</h3><p>Full thesis result dataset.</p><a class="button primary" href="thesis/data/results.json">JSON</a></article>
+      <article class="card"><h3>Thesis Web Data Script</h3><p>Embedded web-thesis data.</p><a class="button primary" href="thesis/data/thesis-data.js">JS</a></article>
+    </div>
+
+    <h3>Simulation, Models, and Verification Sources</h3>
+    <div class="grid">
+      <article class="card"><h3>PTM 65-nm Model</h3><p>Predictive device model.</p><a class="button primary" href="models/65nm_bulk.pm">Model</a></article>
+      <article class="card"><h3>Circuit Library</h3><p>Shared LTspice cell definitions.</p><a class="button primary" href="ltspice/circuits.lib">LIB</a></article>
+      <article class="card"><h3>Hybrid-B Nominal EH127</h3><p>Key proposed-design simulation case.</p><div class="actions"><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir">CIR</a><a class="button" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>CMOS Nominal EH127</h3><p>Full-swing reference simulation case.</p><div class="actions"><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-CMOS-NOM.cir">CIR</a><a class="button" href="ltspice/extended-hamming-12-7/EXP-EH127-CMOS-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>FS-GDI Nominal EH127</h3><p>Low-power comparison case.</p><div class="actions"><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-FSGDI-NOM.cir">CIR</a><a class="button" href="ltspice/extended-hamming-12-7/EXP-EH127-FSGDI-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>Hybrid-A Nominal EH127</h3><p>Heavy-restoration comparison case.</p><div class="actions"><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_A-NOM.cir">CIR</a><a class="button" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_A-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>Hamming (11,7) CMOS</h3><p>Baseline reproduction reference.</p><div class="actions"><a class="button primary" href="ltspice/hamming-11-7/EXP-H117-CMOS-NOM.cir">CIR</a><a class="button" href="ltspice/hamming-11-7/EXP-H117-CMOS-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>Hamming (11,7) FS-GDI</h3><p>Baseline reproduction candidate.</p><div class="actions"><a class="button primary" href="ltspice/hamming-11-7/EXP-H117-FSGDI-NOM.cir">CIR</a><a class="button" href="ltspice/hamming-11-7/EXP-H117-FSGDI-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>XOR CMOS</h3><p>Cell-level reference.</p><div class="actions"><a class="button primary" href="ltspice/xor/cmos/EXP-XOR-CMOS-NOM.cir">CIR</a><a class="button" href="ltspice/xor/cmos/EXP-XOR-CMOS-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>XOR GDI</h3><p>Cell-level compact logic.</p><div class="actions"><a class="button primary" href="ltspice/xor/gdi/EXP-XOR-GDI-NOM.cir">CIR</a><a class="button" href="ltspice/xor/gdi/EXP-XOR-GDI-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>XOR FS-GDI</h3><p>Cell-level restored GDI logic.</p><div class="actions"><a class="button primary" href="ltspice/xor/fsgdi/EXP-XOR-FSGDI-NOM.cir">CIR</a><a class="button" href="ltspice/xor/fsgdi/EXP-XOR-FSGDI-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>XOR Hybrid-A</h3><p>Cell-level hybrid reference.</p><div class="actions"><a class="button primary" href="ltspice/xor/hybrid-a/EXP-XOR-HYBRID_A-NOM.cir">CIR</a><a class="button" href="ltspice/xor/hybrid-a/EXP-XOR-HYBRID_A-NOM.log">LOG</a></div></article>
+      <article class="card"><h3>Verilog Encoder</h3><p>Reference encoder source.</p><a class="button primary" href="verification/verilog/hamming_encoders.sv">SV</a></article>
+      <article class="card"><h3>Verilog Testbench</h3><p>Reference verification bench.</p><a class="button primary" href="verification/verilog/tb_hamming_encoders.sv">SV</a></article>
+    </div>
+
+    <h3>Scripts and Rebuild Workflow</h3>
+    <div class="grid">
+      <article class="card"><h3>Hamming Model</h3><a class="button primary" href="scripts/hamming.py">Open</a></article>
+      <article class="card"><h3>SEC-DED Verification</h3><a class="button primary" href="scripts/verify_secded.py">Open</a></article>
+      <article class="card"><h3>Unit Tests</h3><a class="button primary" href="scripts/test_hamming.py">Open</a></article>
+      <article class="card"><h3>LTspice Builder</h3><a class="button primary" href="scripts/build_ltspice.py">Open</a></article>
+      <article class="card"><h3>LTspice Runner</h3><a class="button primary" href="scripts/run_ltspice.py">Open</a></article>
+      <article class="card"><h3>Log Sanitizer</h3><a class="button primary" href="scripts/sanitize_logs.py">Open</a></article>
+      <article class="card"><h3>Results Pipeline</h3><a class="button primary" href="scripts/results_pipeline.py">Open</a></article>
+      <article class="card"><h3>Results Summary</h3><a class="button primary" href="scripts/summarize_results.py">Open</a></article>
+      <article class="card"><h3>Figure Generator</h3><a class="button primary" href="scripts/generate_figures.py">Open</a></article>
+      <article class="card"><h3>Web Data Export</h3><a class="button primary" href="scripts/export_web_data.py">Open</a></article>
+      <article class="card"><h3>PDF Generator</h3><a class="button primary" href="scripts/generate_academic_pdfs.py">Open</a></article>
+      <article class="card"><h3>Word Generator</h3><a class="button primary" href="scripts/generate_academic_word.py">Open</a></article>
+      <article class="card"><h3>Word Link Updater</h3><a class="button primary" href="scripts/add_word_download_links.py">Open</a></article>
+      <article class="card"><h3>Link Checker</h3><a class="button primary" href="scripts/link_check.py">Open</a></article>
+      <article class="card"><h3>Secret Scanner</h3><a class="button primary" href="scripts/secret_scan.py">Open</a></article>
+      <article class="card"><h3>Local Server</h3><a class="button primary" href="scripts/serve_pages.py">Open</a></article>
+    </div>
+
+    <h3>Figures, References, and Reports</h3>
+    <div class="grid">
+      <article class="card"><h3>Nominal Power Figure</h3><a class="button primary" href="figures/eh127_nominal_power.png">PNG</a></article>
+      <article class="card"><h3>Nominal Delay Figure</h3><a class="button primary" href="figures/eh127_nominal_delay.png">PNG</a></article>
+      <article class="card"><h3>Nominal PDP Figure</h3><a class="button primary" href="figures/eh127_nominal_pdp.png">PNG</a></article>
       <article class="card"><h3>PDP vs VDD Figure</h3><a class="button primary" href="figures/eh127_pdp_vs_vdd.png">PNG</a></article>
-      <article class="card"><h3>References BibTeX</h3><a class="button primary" href="references/references.bib">BIB</a></article>
-      <article class="card"><h3>Survey Table</h3><div class="actions"><a class="button primary" href="literature/survey/survey.md">MD</a><a class="button" href="literature/survey/survey.csv">CSV</a></div></article>
+      <article class="card"><h3>BibTeX References</h3><a class="button primary" href="references/references.bib">BIB</a></article>
+      <article class="card"><h3>Survey Markdown</h3><a class="button primary" href="literature/survey/survey.md">MD</a></article>
+      <article class="card"><h3>Survey CSV</h3><a class="button primary" href="literature/survey/survey.csv">CSV</a></article>
       <article class="card"><h3>Link Check Report</h3><div class="actions"><a class="button primary" href="reports/link-check-report.html">HTML</a><a class="button" href="reports/link-check-report.json">JSON</a></div></article>
       <article class="card"><h3>Secret Scan Report</h3><a class="button primary" href="reports/secret-scan-report.json">JSON</a></article>
       <article class="card"><h3>GitHub Repository</h3><a class="button primary" href="https://github.com/printcode1000-lgtm/Extended-Hamming">Open</a></article>
+      <article class="card"><h3>Published Website</h3><a class="button primary" href="https://printcode1000-lgtm.github.io/Extended-Hamming/">Open</a></article>
     </div>
   </section>
 </main>
-<footer class="site-footer">Research effort record by Howida Gharib Saad El Din Selim · Version 0.2.</footer>
+
+<footer class="site-footer">Research effort reference by Howida Gharib Saad El Din Selim · Version 0.2.</footer>
 </body>
 </html>
