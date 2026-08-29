@@ -60,7 +60,7 @@ Large LTspice binary waveform/cache files (`.raw`, `.op.raw`, `.db`) are intenti
 ## Requirements
 
 - Windows with [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html) 26.0.2 or a compatible current version.
-- Python 3.11 or later. Plot and PDF regeneration additionally use Matplotlib, ReportLab, Pillow, pypdf, and pypdfium2.
+- Python 3.11 or later. Plot, PDF, and Word regeneration additionally use Matplotlib, ReportLab, Pillow, pypdf, pypdfium2, and python-docx.
 - Git for cloning and version control.
 - The included PTM model, used subject to its source terms and research limitations.
 
@@ -78,6 +78,7 @@ python scripts/summarize_results.py
 python scripts/generate_figures.py
 python scripts/export_web_data.py
 python scripts/generate_academic_pdfs.py
+python scripts/generate_academic_word.py
 python scripts/link_check.py
 python scripts/secret_scan.py
 ```
@@ -88,7 +89,7 @@ The exact experiment parameters are in `data/experiments.json`; common definitio
 
 - Academic website: [GitHub Pages project site](https://printcode1000-lgtm.github.io/Extended-Hamming/)
 - [Working thesis PDF](pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf)
-- [Academic PDF inventory](docs/pdf-inventory.md)
+- [Academic PDF and Word inventory](docs/pdf-inventory.md)
 - [Reproducibility guide](pdf/reproducibility/Reproducibility_Guide.pdf)
 - [Simulation results](pdf/simulation/Simulation_Results_and_Analysis.pdf)
 

@@ -1,1 +1,88 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Download Center · Extended Hamming Research</title><meta name="description" content="Organized downloads for the thesis, research documents, simulation files, source code, datasets and figures."><meta name="author" content="Howida Gharib Saad El Din Selim"><link rel="stylesheet" href="assets/site.css"></head><body><header class="site-header"><div class="identity"><p class="eyebrow">Research artifacts</p><h1>Download Center</h1><p class="byline">Project author: Howida Gharib Saad El Din Selim</p></div><nav class="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="thesis/index.html">Thesis</a><a href="literature.html">Literature</a><a href="research-gap.html">Research Gap</a><a href="proposed-design.html">Design</a><a href="simulations.html">Simulations</a><a href="results.html">Results</a><a href="technical-documentation.html">Documentation</a><a href="pdf-library.html">PDF Library</a><a aria-current="page" href="download-center.html">Downloads</a><a href="references.html">References</a></nav></header><main><p class="lede">Version 0.2, updated 2026-08-09. Binary LTspice waveforms are regenerated locally and excluded from the public repository; source netlists, textual logs, models, processed data, and figures are retained.</p><h2>Thesis</h2><div class="grid"><article class="card"><h3>Working thesis draft</h3><p>PDF · Integrated academic draft.</p><a class="button primary" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf" download>Download PDF</a></article></div><h2>Research documents</h2><div class="grid"><article class="card"><h3>Literature Survey</h3><p>PDF · Search scope, comparison, limits, and gap.</p><a class="button primary" href="pdf/research/Literature_Survey.pdf" download>Download</a></article><article class="card"><h3>Research Gap</h3><p>PDF · Contribution and proof boundary.</p><a class="button primary" href="pdf/research/Research_Gap_and_Contribution.pdf" download>Download</a></article><article class="card"><h3>Proposed Design</h3><p>PDF · Architecture and verification.</p><a class="button primary" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf" download>Download</a></article></div><h2>Technical and reproducibility</h2><div class="grid"><article class="card"><h3>All PDF documents</h3><p>15 A4 documents · Thesis, method, results, verification, repository, and publication planning.</p><a class="button primary" href="pdf-library.html">Open library</a></article><article class="card"><h3>Experiment manifest</h3><p>JSON · 121 traceable experiments.</p><a class="button primary" href="data/experiments.json" download>Download JSON</a></article><article class="card"><h3>PTM model</h3><p>PM · Predictive 65-nm bulk CMOS model.</p><a class="button primary" href="models/65nm_bulk.pm" download>Download model</a></article></div><h2>Simulation files</h2><div class="grid"><article class="card"><h3>Nominal Hybrid-B netlist</h3><p>CIR · Proposed extended encoder at nominal conditions.</p><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir" download>Download</a></article><article class="card"><h3>Nominal Hybrid-B log</h3><p>LOG · Textual LTspice measurements.</p><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log" download>Download</a></article><article class="card"><h3>Circuit library</h3><p>LIB · Shared CMOS, GDI, FS-GDI, and hybrid cells.</p><a class="button primary" href="ltspice/circuits.lib" download>Download</a></article></div><h2>Source code and verification</h2><div class="grid"><article class="card"><h3>Python reference model</h3><p>PY · Encoding, decoding, and SEC-DED logic.</p><a class="button primary" href="scripts/hamming.py" download>Download</a></article><article class="card"><h3>Simulation builder</h3><p>PY · Reproducible LTspice netlist generation.</p><a class="button primary" href="scripts/build_ltspice.py" download>Download</a></article><article class="card"><h3>SystemVerilog sources</h3><p>SV · Encoder reference and testbench.</p><a class="button primary" href="verification/verilog/hamming_encoders.sv" download>Encoder</a> <a class="button" href="verification/verilog/tb_hamming_encoders.sv" download>Testbench</a></article></div><h2>Datasets and figures</h2><div class="grid"><article class="card"><h3>Processed results</h3><p>CSV · Accepted/rejected measurements and experiment metadata.</p><a class="button primary" href="data/processed/results.csv" download>Download</a></article><article class="card"><h3>Hamming vectors</h3><p>CSV/JSON · Reusable functional input vectors.</p><a class="button primary" href="data/csv/hamming_vectors.csv" download>CSV</a> <a class="button" href="data/json/hamming_vectors.json" download>JSON</a></article><article class="card"><h3>Publication figures</h3><p>PNG · Original charts generated from processed results.</p><a class="button primary" href="figures/eh127_nominal_power.png" download>Power</a> <a class="button" href="figures/eh127_nominal_delay.png" download>Delay</a></article></div><h2>Complete repository</h2><p>Clone the public main branch with <code>git clone https://github.com/printcode1000-lgtm/Extended-Hamming.git</code>, or use GitHub's repository download control.</p><a class="button primary" href="https://github.com/printcode1000-lgtm/Extended-Hamming">Open public repository</a></main><footer class="site-footer">Research artifacts by Howida Gharib Saad El Din Selim · Version 0.2.</footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Download Center · Extended Hamming Research</title>
+  <meta name="description" content="Organized downloads for the thesis, research documents, simulation files, source code, datasets and figures.">
+  <meta name="author" content="Howida Gharib Saad El Din Selim">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="identity">
+    <p class="eyebrow">Research artifacts</p>
+    <h1>Download Center</h1>
+    <p class="byline">Project author: Howida Gharib Saad El Din Selim</p>
+  </div>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="index.html">Home</a>
+    <a href="thesis/index.html">Thesis</a>
+    <a href="literature.html">Literature</a>
+    <a href="research-gap.html">Research Gap</a>
+    <a href="proposed-design.html">Design</a>
+    <a href="simulations.html">Simulations</a>
+    <a href="results.html">Results</a>
+    <a href="technical-documentation.html">Documentation</a>
+    <a href="pdf-library.html">PDF Library</a>
+    <a aria-current="page" href="download-center.html">Downloads</a>
+    <a href="references.html">References</a>
+  </nav>
+</header>
+<main>
+  <p class="lede">Version 0.2, updated 2026-08-09. Academic documents are available in both PDF and editable Word formats. Binary LTspice waveforms are regenerated locally and excluded from the public repository; source netlists, textual logs, models, processed data, and figures are retained.</p>
+
+  <h2>Thesis</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Working thesis draft</h3>
+      <p>PDF/Word · Integrated academic draft.</p>
+      <div class="actions">
+        <a class="button primary" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.pdf" download>Download PDF</a>
+        <a class="button" href="pdf/thesis/Howida_Gharib_Extended_Hamming_MSc_Thesis.docx" download>Download Word</a>
+      </div>
+    </article>
+  </div>
+
+  <h2>Research documents</h2>
+  <div class="grid">
+    <article class="card"><h3>Literature Survey</h3><p>PDF/Word · Search scope, comparison, limits, and gap.</p><div class="actions"><a class="button primary" href="pdf/research/Literature_Survey.pdf" download>Download PDF</a><a class="button" href="pdf/research/Literature_Survey.docx" download>Download Word</a></div></article>
+    <article class="card"><h3>Research Gap</h3><p>PDF/Word · Contribution and proof boundary.</p><div class="actions"><a class="button primary" href="pdf/research/Research_Gap_and_Contribution.pdf" download>Download PDF</a><a class="button" href="pdf/research/Research_Gap_and_Contribution.docx" download>Download Word</a></div></article>
+    <article class="card"><h3>Proposed Design</h3><p>PDF/Word · Architecture and verification.</p><div class="actions"><a class="button primary" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf" download>Download PDF</a><a class="button" href="pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx" download>Download Word</a></div></article>
+  </div>
+
+  <h2>Technical and reproducibility</h2>
+  <div class="grid">
+    <article class="card"><h3>All academic documents</h3><p>15 A4 documents · Each file is downloadable as PDF or Word.</p><a class="button primary" href="pdf-library.html">Open library</a></article>
+    <article class="card"><h3>Experiment manifest</h3><p>JSON · 121 traceable experiments.</p><a class="button primary" href="data/experiments.json" download>Download JSON</a></article>
+    <article class="card"><h3>PTM model</h3><p>PM · Predictive 65-nm bulk CMOS model.</p><a class="button primary" href="models/65nm_bulk.pm" download>Download model</a></article>
+  </div>
+
+  <h2>Simulation files</h2>
+  <div class="grid">
+    <article class="card"><h3>Nominal Hybrid-B netlist</h3><p>CIR · Proposed extended encoder at nominal conditions.</p><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.cir" download>Download</a></article>
+    <article class="card"><h3>Nominal Hybrid-B log</h3><p>LOG · Textual LTspice measurements.</p><a class="button primary" href="ltspice/extended-hamming-12-7/EXP-EH127-HYBRID_B-NOM.log" download>Download</a></article>
+    <article class="card"><h3>Circuit library</h3><p>LIB · Shared CMOS, GDI, FS-GDI, and hybrid cells.</p><a class="button primary" href="ltspice/circuits.lib" download>Download</a></article>
+  </div>
+
+  <h2>Source code and verification</h2>
+  <div class="grid">
+    <article class="card"><h3>Python reference model</h3><p>PY · Encoding, decoding, and SEC-DED logic.</p><a class="button primary" href="scripts/hamming.py" download>Download</a></article>
+    <article class="card"><h3>Simulation builder</h3><p>PY · Reproducible LTspice netlist generation.</p><a class="button primary" href="scripts/build_ltspice.py" download>Download</a></article>
+    <article class="card"><h3>SystemVerilog sources</h3><p>SV · Encoder reference and testbench.</p><a class="button primary" href="verification/verilog/hamming_encoders.sv" download>Encoder</a> <a class="button" href="verification/verilog/tb_hamming_encoders.sv" download>Testbench</a></article>
+  </div>
+
+  <h2>Datasets and figures</h2>
+  <div class="grid">
+    <article class="card"><h3>Processed results</h3><p>CSV · Accepted/rejected measurements and experiment metadata.</p><a class="button primary" href="data/processed/results.csv" download>Download</a></article>
+    <article class="card"><h3>Hamming vectors</h3><p>CSV/JSON · Reusable functional input vectors.</p><a class="button primary" href="data/csv/hamming_vectors.csv" download>CSV</a> <a class="button" href="data/json/hamming_vectors.json" download>JSON</a></article>
+    <article class="card"><h3>Publication figures</h3><p>PNG · Original charts generated from processed results.</p><a class="button primary" href="figures/eh127_nominal_power.png" download>Power</a> <a class="button" href="figures/eh127_nominal_delay.png" download>Delay</a></article>
+  </div>
+
+  <h2>Complete repository</h2>
+  <p>Clone the public main branch with <code>git clone https://github.com/printcode1000-lgtm/Extended-Hamming.git</code>, or use GitHub's repository download control.</p>
+  <a class="button primary" href="https://github.com/printcode1000-lgtm/Extended-Hamming">Open public repository</a>
+</main>
+<footer class="site-footer">Research artifacts by Howida Gharib Saad El Din Selim · Version 0.2.</footer>
+</body>
+</html>
