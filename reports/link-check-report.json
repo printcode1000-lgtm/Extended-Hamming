@@ -1,7 +1,7 @@
 {
   "base_path_tested": "/Extended-Hamming/",
   "pages_checked": 24,
-  "internal_links_checked": 553,
+  "internal_links_checked": 554,
   "internal_failures": 0,
   "external_links_checked": 4,
   "external_failures": 1,
@@ -3019,6 +3019,14 @@
       "attribute": "href",
       "link": "reports/secret-scan-report.json",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\reports\\secret-scan-report.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "src",
+      "link": "assets/site.js",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\assets\\site.js",
       "ok": true,
       "reason": ""
     },
