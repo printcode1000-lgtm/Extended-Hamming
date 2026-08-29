@@ -1,0 +1,34 @@
+{
+  "status": "LTspice behavioral memristor/PIM macromodel completed",
+  "memristor_log": "ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+  "xor_log": "ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.log",
+  "memristor_pim": {
+    "pavg_w": 0.000224949995754,
+    "tpd_s": 3.15371615542e-08,
+    "pdp_j": 7.094284357710502e-12,
+    "energy_per_encoded_word_j": 1.7995999660320001e-12,
+    "output_swing_v": 0.677872255445,
+    "functional_pass": true
+  },
+  "hybrid_b_baseline": {
+    "pavg_w": 1.12029206408e-05,
+    "tpd_s": 2.158463713645e-10,
+    "pdp_j": 2.418109769001139e-15,
+    "energy_per_encoded_word_j": 8.96233651264e-14
+  },
+  "relative_to_hybrid_b": {
+    "energy_reduction_fraction": -19.079584865999404,
+    "latency_reduction_fraction": -145.1092968801554,
+    "interpretation": "Negative values mean the conservative memristor/PIM macromodel is worse than Hybrid-B for this metric."
+  },
+  "optimized_memristor_pim": {
+    "pavg_w": 1.21847687495e-08,
+    "tpd_s": 3.02574802642e-11,
+    "pdp_j": 3.686803999618372e-19,
+    "energy_per_encoded_word_j": 9.7478149996e-17,
+    "output_swing_v": 1.0,
+    "functional_pass": true,
+    "energy_reduction_fraction": 0.9989123578448709,
+    "latency_reduction_fraction": 0.859819370263565
+  }
+}

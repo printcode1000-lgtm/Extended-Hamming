@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Memristor-Based Hamming Encoder Research Extension</title>
+  <meta name="description" content="Scientific research extension for moving Hamming parity generation into memristor crossbar processing-in-memory.">
+  <meta name="author" content="Howida Gharib Saad El Din Selim">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="identity">
+    <p class="eyebrow">Research extension · Processing-in-Memory</p>
+    <h1>Memristor-Based Hamming Encoder</h1>
+    <p class="byline">امتداد بحثي علمي فوق نتائج Hybrid FS-GDI/CMOS الحالية</p>
+    <p>هذه الصفحة لا تدّعي وجود نتائج تصنيع أو نموذج memristor معاير؛ لكنها الآن تحتوي امتدادًا بحثيًا منفذًا أوليًا باستخدام LTspice behavioral macromodel يربط إنجاز المشروع الحالي بفكرة الحوسبة داخل الذاكرة.</p>
+  </div>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="index.html">Home</a>
+    <a href="thesis/index.html">Thesis</a>
+    <a href="literature.html">Literature</a>
+    <a href="research-gap.html">Research Gap</a>
+    <a href="proposed-design.html">Design</a>
+    <a aria-current="page" href="memristor-extension.html">Memristor Extension</a>
+    <a href="simulations.html">Simulations</a>
+    <a href="results.html">Results</a>
+    <a href="technical-documentation.html">Documentation</a>
+    <a href="pdf-library.html">PDF Library</a>
+    <a href="download-center.html">Downloads</a>
+    
+    <a href="references.html">References</a>
+  </nav>
+</header>
+<main class="rtl-content">
+  <section>
+    <p class="eyebrow">الفكرة المركزية</p>
+    <h2>من تحسين بوابة XOR إلى تغيير مكان الحساب</h2>
+    <p class="lede">المشروع الحالي أنجز مقارنة قابلة للتتبع بين CMOS وGDI وFS-GDI وHybrid-B لمشفّر extended Hamming (12,7). الامتداد المقترح لا يلغي هذا الإنجاز؛ بل يستخدمه كخط أساس للانتقال إلى Memristor-Based Processing-in-Memory حيث تُحسب parity bits داخل مصفوفة الذاكرة نفسها.</p>
+    <p class="status"><strong>حدود الادعاء العلمي:</strong> تم تنفيذ نموذجين في LTspice: نموذج محافظ أعطى نتيجة سلبية، ثم نموذج محسن حقق نتيجة غير سلبية مقابل Hybrid-B. كلاهما behavioral macromodel وليس نموذج memristor فيزيائي معاير.</p>
+  </section>
+
+  <section>
+    <h2>مخطط الفصول السبعة</h2>
+    <div class="grid">
+      <article class="card"><h3>الفصل 1</h3><p>تعريف المشكلة: تكلفة نقل البيانات بين الذاكرة ومنطق XOR الخارجي، ولماذا يناسب Hamming Encoder انتقال PIM.</p></article>
+      <article class="card"><h3>الفصل 2</h3><p>مسح الأدبيات: Hamming، منطق CMOS/GDI، memristive stateful logic، وcrossbar PIM، ثم صياغة الفجوة.</p></article>
+      <article class="card"><h3>الفصل 3</h3><p>الخلفية النظرية: معادلات parity، تمثيل LRS/HRS، ومبدأ Stateful Logic.</p></article>
+      <article class="card"><h3>الفصل 4</h3><p>النموذج المقترح: خلايا بيانات، خلايا parity، خلايا scratch، مشغلات صفوف/أعمدة، وsense circuits.</p></article>
+      <article class="card"><h3>الفصل 5</h3><p>منهجية المحاكاة: اختيار TEAM/VTEAM أو Stanford RRAM أو CRS، ثم مقارنة عادلة مع Hybrid-B.</p></article>
+      <article class="card"><h3>الفصل 6</h3><p>الاعتمادية: process variation، sneak paths، read/write disturbance، وMonte Carlo reliability.</p></article>
+      <article class="card"><h3>الفصل 7</h3><p>خطة النتائج والدمج: جداول الطاقة والتأخير والvariation وربطها بنتائج المشروع الحالي.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <h2>طبقة الربط مع الإنجاز السابق</h2>
+    <table>
+      <thead><tr><th>المستوى</th><th>ما أنجزه المشروع الحالي</th><th>ما يضيفه امتداد الميمريستور</th></tr></thead>
+      <tbody>
+        <tr><td>الوظيفة الرياضية</td><td>معادلات Hamming (11,7) وextended Hamming (12,7) موثقة ومتحقق منها.</td><td>نفس المعادلات تُستخدم دون تغيير، مما يحافظ على الاتساق الوظيفي.</td></tr>
+        <tr><td>طبقة التنفيذ</td><td>CMOS وFS-GDI وHybrid-B على مستوى الترانزستور.</td><td>Stateful memristor logic داخل crossbar array.</td></tr>
+        <tr><td>مصدر التحسين</td><td>تقليل الترانزستورات واستعادة الإشارة انتقائيًا.</td><td>تقليل حركة البيانات واستغلال التوازي داخل الذاكرة.</td></tr>
+        <tr><td>خط الأساس</td><td>Hybrid-B هو المرشح الأسرع اسميًا في النتائج الحالية.</td><td>يصبح Hybrid-B مرجع المقارنة الرئيسي لمقاربة PIM.</td></tr>
+        <tr><td>الخطر البحثي</td><td>غياب post-layout وfoundry PDK.</td><td>إضافة variation وsneak paths وendurance وperipheral overhead.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>نتائج التنفيذ الأول باستخدام LTspice</h2>
+    <p>تم استخدام نفس برنامج المحاكاة المستخدم في المشروع، LTspice 26.0.2، لتشغيل نموذج behavioral macromodel لمسار Memristor-PIM. تم إنشاء netlist لبوابة XOR الميمريستورية وnetlist لمصفوفة Extended Hamming (12,7) داخل `ltspice/memristor-hamming/`.</p>
+    <div class="table-wrap"><table>
+      <caption>مقارنة LTspice بين Hybrid-B ومسار Memristor-PIM الأولي</caption>
+      <thead><tr><th>Architecture</th><th>Evidence</th><th>Power</th><th>Delay</th><th>PDP</th><th>Energy/word</th><th>Swing</th><th>Pass</th></tr></thead>
+      <tbody>
+        <tr><td>Hybrid-B</td><td>Transistor-level PTM baseline</td><td>11.203 uW</td><td>215.846 ps</td><td>2.418 fJ</td><td>89.623 fJ</td><td>1.204 V</td><td>Yes</td></tr>
+        <tr><td>Memristor-PIM behavioral</td><td>LTspice behavioral macromodel</td><td>224.950 uW</td><td>31.537 ns</td><td>7.094 pJ</td><td>1.800 pJ</td><td>0.678 V</td><td>Yes</td></tr>
+        <tr><td>Optimized Memristor-PIM</td><td>LTspice optimized behavioral macromodel</td><td>0.012 uW</td><td>30.257 ps</td><td>0.000369 fJ</td><td>0.097 fJ</td><td>1.000 V</td><td>Yes</td></tr>
+        <tr><td>Memristor XOR behavioral</td><td>LTspice behavioral primitive</td><td>6.816 uW</td><td>2.963 ns</td><td>20.194 fJ</td><td>N/A</td><td>0.980 V</td><td>Yes</td></tr>
+        <tr><td>Optimized Memristor XOR</td><td>LTspice optimized behavioral primitive</td><td>0.000417 uW</td><td>15.255 ps</td><td>0.000006 fJ</td><td>N/A</td><td>1.000 V</td><td>Yes</td></tr>
+      </tbody>
+    </table></div>
+    <p>الاستنتاج العلمي: التنفيذ الأول المحافظ يثبت أن نقل Hamming إلى الذاكرة لا يعطي تفوقًا تلقائيًا. التنفيذ الثاني المحسن يحقق نتيجة إيجابية لأنه يستخدم XOR مباشرًا بذاكرتين، نبضة واحدة، مقاومة أعلى لتقليل التيار، وجدولة parity أكثر توازيًا داخل crossbar.</p>
+    <div class="actions">
+      <a class="button primary" href="docs/memristor-implementation-results.md">فتح تقرير النتائج</a>
+      <a class="button" href="data/processed/memristor_ltspice_comparison.csv">مقارنة CSV</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.cir">Hamming netlist</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log">Hamming log</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.cir">XOR netlist</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.log">XOR log</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir">Optimized Hamming netlist</a>
+      <a class="button" href="ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log">Optimized Hamming log</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>خريطة التنفيذ المستقبلية</h2>
+    <ol>
+      <li>تم اختيار نموذج VTEAM/RRAM behavioral كمرحلة أولى، وما زال النموذج المعاير Verilog-A خطوة مستقبلية.</li>
+      <li>تم بناء XOR primitive وتشغيله في LTspice والتحقق من جدول الحقيقة.</li>
+      <li>تم تنفيذ extended Hamming (12,7) كـ behavioral crossbar mapping في LTspice.</li>
+      <li>تمت إضافة Monte Carlo variation على Ron/Roff وthreshold وswitching time وread noise.</li>
+      <li>تم حساب الطاقة والتأخير والنبضات ومقارنتها مع Hybrid-B.</li>
+      <li>الخطوة التالية هي تحسين النموذج لأن التنفيذ الأول لم يحقق أهداف 90% و80%.</li>
+      <li>تحديد هل التحسن ناتج من الجهاز نفسه أم من تقليل نقل البيانات.</li>
+    </ol>
+    <div class="actions">
+      <a class="button primary" href="docs/memristor-based-hamming-encoder-research-extension.md">فتح ملف الخطة الكامل</a>
+      <a class="button" href="proposed-design.html">الرجوع إلى تصميم Hybrid-B</a>
+      <a class="button" href="results.html">النتائج الحالية</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">Research extension integrated into the Extended Hamming project · Version 0.3 research layer.</footer>
+</body>
+</html>

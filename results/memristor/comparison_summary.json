@@ -1,0 +1,42 @@
+{
+  "status": "behavioral_memristor_research_estimate",
+  "model": "models\\memristor\\vteam_rram_research_model.json",
+  "xor_truth_table_pass": true,
+  "hamming_12_7_words_tested": 128,
+  "hamming_12_7_functional_pass": true,
+  "memristor_pim": {
+    "energy_per_encoded_word_j": 1.1996600000000002e-12,
+    "latency_per_encoded_word_s": 4.2e-08,
+    "xor_ops_per_word": 22,
+    "pulses_per_word": 88,
+    "minimum_array_memristors": 14,
+    "selected_memristors_per_xor": 3,
+    "monte_carlo_logic_error_rate": 0.0015,
+    "monte_carlo_accepted": false
+  },
+  "hybrid_b_baseline": {
+    "source_experiment_id": "EXP-EH127-HYBRID_B-NOM",
+    "energy_per_operation_j": 8.96233651264e-14,
+    "tpd_s": 2.158463713645e-10,
+    "transistor_count": 152
+  },
+  "relative_to_hybrid_b": {
+    "energy_reduction_fraction": -12.385571924330938,
+    "latency_reduction_fraction": -193.5828402603746,
+    "note": "Positive values favor the memristor/PIM behavioral estimate. This comparison is architecture-level and includes only the declared behavioral pulse model, not a calibrated Verilog-A/LTspice memristor device."
+  },
+  "optimized_memristor_pim": {
+    "model": "models\\memristor\\optimized_pim_xor_research_model.json",
+    "hamming_12_7_functional_pass": true,
+    "energy_per_encoded_word_j": 7.338154999999999e-17,
+    "latency_per_encoded_word_s": 3e-11,
+    "xor_ops_per_word": 22,
+    "pulses_per_word": 22,
+    "minimum_array_memristors": 14,
+    "selected_memristors_per_xor": 2,
+    "monte_carlo_logic_error_rate": 0.0,
+    "monte_carlo_accepted": true,
+    "energy_reduction_fraction_vs_hybrid_b": 0.9991812230003134,
+    "latency_reduction_fraction_vs_hybrid_b": 0.8610122569568752
+  }
+}

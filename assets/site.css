@@ -26,6 +26,24 @@ body {
   line-height: 1.65;
 }
 
+[dir="rtl"] body,
+.rtl-content {
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+.rtl-content {
+  text-align: right;
+}
+
+[dir="rtl"] .site-nav {
+  direction: rtl;
+}
+
+[dir="rtl"] th,
+[dir="rtl"] td {
+  text-align: right;
+}
+
 a {
   color: var(--blue);
 }

@@ -1,0 +1,44 @@
+{
+  "model_name": "VTEAM_RRAM_binary_research_model_v0.1",
+  "status": "behavioral research model for architecture-level PIM estimation",
+  "logic_mapping": {
+    "0": "HRS",
+    "1": "LRS"
+  },
+  "nominal_parameters": {
+    "ron_ohm": 10000.0,
+    "roff_ohm": 1000000.0,
+    "v_read_v": 0.2,
+    "v_logic_v": 1.0,
+    "v_set_v": 1.0,
+    "v_reset_v": -1.0,
+    "read_time_s": 5e-10,
+    "logic_pulse_time_s": 1e-9,
+    "write_time_s": 1e-9,
+    "sense_time_s": 5e-10
+  },
+  "variation_parameters": {
+    "ron_sigma_fraction": 0.1,
+    "roff_sigma_fraction": 0.15,
+    "threshold_sigma_fraction": 0.05,
+    "switching_time_sigma_fraction": 0.1,
+    "read_noise_sigma_fraction": 0.02
+  },
+  "xor_primitive": {
+    "name": "PIM_XOR_3M_CONSERVATIVE",
+    "description": "A conservative stateful XOR abstraction using two operand cells and one destination/scratch cell. The Boolean result is stored as a memristor resistance state.",
+    "selected_memristors_per_xor": 3,
+    "operation_pulses_per_xor": 4,
+    "pulses": [
+      "RESET destination cell to HRS",
+      "sense/read operands at low voltage",
+      "stateful XOR fire pulse writes destination state",
+      "verify-read destination state"
+    ]
+  },
+  "acceptance_criteria": {
+    "minimum_read_margin_ratio": 8.0,
+    "maximum_logic_error_rate": 0.001,
+    "note": "The model is suitable for project-level research estimation. A future Verilog-A or LTspice compact-device calibration is still required before silicon-level claims."
+  }
+}

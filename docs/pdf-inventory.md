@@ -2,7 +2,7 @@
 
 Author for every document: **Howida Gharib Saad El Din Selim**
 
-Project version: **0.2 - Validated Draft**
+Project version: **0.3 - Validated Draft + Memristor/PIM Extension**
 
 Last updated: **2026-08-29**
 
@@ -15,6 +15,7 @@ All academic documents are available in two public formats: PDF for print review
 | Research Gap and Contribution | `Research_Gap_and_Contribution` | Evidence-bounded gap and candidate contribution | Validated Draft | [PDF](../pdf/research/Research_Gap_and_Contribution.pdf) | [Word](../pdf/research/Research_Gap_and_Contribution.docx) |
 | Original Paper Audit | `Original_Paper_Audit` | Objective baseline audit and reproduction plan | Validated Draft | [PDF](../pdf/research/Original_Paper_Audit.pdf) | [Word](../pdf/research/Original_Paper_Audit.docx) |
 | Proposed Hybrid Extended Hamming Encoder | `Proposed_Hybrid_Extended_Hamming_Encoder` | Equations, architecture, restoration, trade-offs, and verification | Validated Draft | [PDF](../pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.pdf) | [Word](../pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx) |
+| Memristor-PIM Current Development Phase Report | `Memristor_PIM_Current_Development_Phase_Report` | Scientific record of the Memristor-Based Hamming Encoder extension, LTspice behavioral results, Monte Carlo checks, and evidence limits | Validated Draft | [PDF](../pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf) | [Word](../pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx) |
 | LTspice Simulation Methodology | `LTspice_Simulation_Methodology` | Complete simulation and result-extraction method | Validated Draft | [PDF](../pdf/technical/LTspice_Simulation_Methodology.pdf) | [Word](../pdf/technical/LTspice_Simulation_Methodology.docx) |
 | 65-nm Device Model Documentation | `65nm_Device_Model_Documentation` | PTM provenance, assumptions, limits, and PDK distinction | Validated Draft | [PDF](../pdf/technical/65nm_Device_Model_Documentation.pdf) | [Word](../pdf/technical/65nm_Device_Model_Documentation.docx) |
 | Simulation Measurement Definitions | `Simulation_Measurement_Definitions` | Common power, delay, energy, swing, and function definitions | Validated Draft | [PDF](../pdf/technical/Simulation_Measurement_Definitions.pdf) | [Word](../pdf/technical/Simulation_Measurement_Definitions.docx) |

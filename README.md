@@ -2,7 +2,7 @@
 
 **Researcher, thesis author, project author, and research implementation author:** Howida Gharib Saad El Din Selim
 
-**Status:** Research Project Version 0.2 — validated working thesis draft; publication manuscript in preparation.
+**Status:** Research Project Version 0.3 — validated working thesis draft plus a memristor/PIM research-extension layer; publication manuscript in preparation.
 
 This public repository supports a Master's research project on transistor-level CMOS, gate-diffusion-input (GDI), full-swing GDI (FS-GDI), and selective hybrid FS-GDI/CMOS Hamming encoders. It reproduces a published Hamming (11,7) baseline, extends the Boolean architecture to extended Hamming (12,7) SEC-DED, and evaluates a speed-oriented selective-restoration candidate using LTspice 26.0.2 and a University of Minnesota 65-nm predictive technology model (PTM).
 
@@ -23,6 +23,25 @@ Low-transistor-count XOR logic can reduce switched capacitance, but device count
 The proposed **Hybrid-B** architecture uses FS-GDI parity networks and selectively restores only the five externally observed parity outputs with CMOS buffers. At the nominal condition (1.2 V, 27 °C, 125 MHz, 10 fF), Hybrid-B uses approximately 11.203 µW, has a D1-to-P0 delay of 215.846 ps, a PDP of 2.418 fJ, and 152 transistors. Relative to the CMOS reference, these values correspond to improvements of 58.54% in power, 37.43% in delay, 74.06% in PDP, and 42.42% in transistor count.
 
 This is a trade-off, not a universal superiority claim: unbuffered FS-GDI retains the lowest simulated power and PDP, while Hybrid-B is the fastest nominal extended-encoder candidate in the evaluated set.
+
+## Memristor/PIM research extension
+
+A new scientific extension studies how the verified Hamming parity equations and validated Hybrid-B baseline can be used as the starting point for a **Memristor-Based Hamming Encoder**. The extension reframes the next research question from "which external XOR circuit is best?" to "can Hamming parity be generated inside a memristor crossbar memory using stateful logic?"
+
+The extension now includes two LTspice behavioral memristor/PIM passes: a conservative three-memristor XOR implementation retained as a negative baseline, and an optimized two-memristor/single-pulse crossbar parity implementation retained as the positive research target. The optimized pass improves energy and delay versus Hybrid-B under stated behavioral assumptions, while the conservative pass shows why the optimization is necessary.
+
+Key files:
+
+- `docs/memristor-based-hamming-encoder-research-extension.md`
+- `docs/memristor-implementation-results.md`
+- `memristor-extension.html`
+- `models/memristor/vteam_rram_research_model.json`
+- `scripts/memristor_pim_hamming.py`
+- `ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.cir`
+- `ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.cir`
+- `ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.cir`
+- `ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir`
+- `data/processed/memristor_ltspice_comparison.csv`
 
 ## Evidence status
 
@@ -92,6 +111,8 @@ The exact experiment parameters are in `data/experiments.json`; common definitio
 - [Academic PDF and Word inventory](docs/pdf-inventory.md)
 - [Reproducibility guide](pdf/reproducibility/Reproducibility_Guide.pdf)
 - [Simulation results](pdf/simulation/Simulation_Results_and_Analysis.pdf)
+- [Memristor/PIM research extension](memristor-extension.html)
+- [Memristor implementation results](docs/memristor-implementation-results.md)
 
 To preview under the same repository base path used by GitHub Pages:
 

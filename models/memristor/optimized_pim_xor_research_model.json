@@ -1,0 +1,29 @@
+{
+  "model_name": "OPTIMIZED_2M_SINGLE_PULSE_PIM_XOR_v0.1",
+  "status": "optimized behavioral research model; not calibrated silicon evidence",
+  "logic_mapping": {
+    "0": "HRS",
+    "1": "LRS"
+  },
+  "nominal_parameters": {
+    "ron_ohm": 200000.0,
+    "roff_ohm": 20000000.0,
+    "v_logic_v": 0.35,
+    "v_read_v": 0.08,
+    "xor_pulse_time_s": 1e-11,
+    "sense_time_s": 5e-12,
+    "direct_xor_levels": 2,
+    "selected_memristors_per_xor": 2,
+    "pulses_per_xor": 1,
+    "xor_ops_per_word": 22,
+    "minimum_array_memristors": 14,
+    "parallel_execution_note": "P1/P2/P4/P8 are reduced in parallel; P0 is evaluated with a wide crossbar parity primitive after Hamming parities are available."
+  },
+  "variation_parameters": {
+    "ron_sigma_fraction": 0.05,
+    "roff_sigma_fraction": 0.08,
+    "threshold_sigma_fraction": 0.02,
+    "switching_time_sigma_fraction": 0.03,
+    "read_noise_sigma_fraction": 0.005
+  }
+}

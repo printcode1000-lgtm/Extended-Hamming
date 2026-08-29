@@ -1,0 +1,19 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\hesham\Desktop\work\Encoders\ltspice\memristor-hamming\EXP-MEM-EH127-PIM-NOM.cir
+Start Time: Sat Aug 29 18:26:46 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.479 seconds.
+
+Files loaded:
+C:\Users\hesham\Desktop\work\Encoders\ltspice\memristor-hamming\EXP-MEM-EH127-PIM-NOM.cir
+
+pavg: AVG((-V(VDD)*I(VSUP)) )=0.000224949995754 FROM 2.5e-07 TO 9e-07
+tplh=3.17785803882e-08 FROM 2.20025e-07 TO 2.51803580388e-07
+tphl=3.12957427202e-08 FROM 3.20075000001e-07 TO 3.51370742721e-07
+voh: MAX(V(P0) )=0.839004456997 FROM 2.5e-07 TO 9e-07
+vol: MIN(V(P0) )=0.161132201552 FROM 2.5e-07 TO 9e-07

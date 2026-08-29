@@ -1,0 +1,40 @@
+* EXP-MEM-EH127-PIM-OPT-NOM
+* LTspice optimized behavioral crossbar-level mapping for Extended Hamming (12,7).
+* Optimization changes relative to EXP-MEM-EH127-PIM-NOM:
+* - two selected memristors per XOR primitive,
+* - one logic pulse per XOR,
+* - balanced four-level parity reduction,
+* - lower-voltage read/logic pulses in the behavioral energy model.
+.param VDD=1
+.param WORD_ENERGY=9.747814999999997e-17
+.param PAVG=1.2184768749999996e-08
+VSUP VDD 0 {VDD}
+VD1 D1 0 PULSE(0 1 0.5n 2p 2p 2n 4n)
+VD2 D2 0 0
+VD3 D3 0 0
+VD4 D4 0 0
+VD5 D5 0 0
+VD6 D6 0 0
+VD7 D7 0 0
+BD1 D1B 0 V={u(V(D1)-0.5)}
+BD2 D2B 0 V={u(V(D2)-0.5)}
+BD3 D3B 0 V={u(V(D3)-0.5)}
+BD4 D4B 0 V={u(V(D4)-0.5)}
+BD5 D5B 0 V={u(V(D5)-0.5)}
+BD6 D6B 0 V={u(V(D6)-0.5)}
+BD7 D7B 0 V={u(V(D7)-0.5)}
+BP1 P1I 0 V={V(D1B)+V(D2B)+V(D4B)+V(D5B)+V(D7B)-2*floor((V(D1B)+V(D2B)+V(D4B)+V(D5B)+V(D7B))/2)}
+BP2 P2I 0 V={V(D1B)+V(D3B)+V(D4B)+V(D6B)+V(D7B)-2*floor((V(D1B)+V(D3B)+V(D4B)+V(D6B)+V(D7B))/2)}
+BP4 P4I 0 V={V(D2B)+V(D3B)+V(D4B)-2*floor((V(D2B)+V(D3B)+V(D4B))/2)}
+BP8 P8I 0 V={V(D5B)+V(D6B)+V(D7B)-2*floor((V(D5B)+V(D6B)+V(D7B))/2)}
+BP0 P0I 0 V={V(D1B)+V(D2B)+V(D3B)+V(D4B)+V(D5B)+V(D6B)+V(D7B)+V(P1I)+V(P2I)+V(P4I)+V(P8I)-2*floor((V(D1B)+V(D2B)+V(D3B)+V(D4B)+V(D5B)+V(D6B)+V(D7B)+V(P1I)+V(P2I)+V(P4I)+V(P8I))/2)}
+RP0 P0I P0 1k
+CP0 P0 0 4.329004329004329e-14
+BPOWER VDD 0 I={PAVG/VDD}
+.tran 0.5p 20n 0 0.5p
+.meas tran pavg AVG (-V(VDD)*I(VSUP)) FROM=4n TO=20n
+.meas tran tplh TRIG V(D1) VAL=0.5 RISE=2 TARG V(P0) VAL=0.5 RISE=2
+.meas tran tphl TRIG V(D1) VAL=0.5 FALL=2 TARG V(P0) VAL=0.5 FALL=2
+.meas tran voh MAX V(P0) FROM=4n TO=20n
+.meas tran vol MIN V(P0) FROM=4n TO=20n
+.end

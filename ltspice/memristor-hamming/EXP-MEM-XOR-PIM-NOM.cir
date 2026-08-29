@@ -1,0 +1,28 @@
+* EXP-MEM-XOR-PIM-NOM
+* LTspice behavioral macromodel for the PIM_XOR_3M_CONSERVATIVE primitive.
+* Logic 0 = HRS (1e+06 ohm), Logic 1 = LRS (10000 ohm)
+* Pulse schedule: reset destination, read operands, stateful XOR fire, verify-read.
+.param RON=10000.0
+.param ROFF=1000000.0
+.param VDD=1
+.param VREAD=0.2
+.param VLOGIC=1.0
+.param TREAD=5e-10
+.param TLOGIC=1e-09
+.param PAVG=6.816250000000001e-06
+VSUP VDD 0 {VDD}
+VA A 0 PULSE(0 1 5n 50p 50p 20n 40n)
+VB B 0 0
+BA ABIT 0 V={u(V(A)-0.5)}
+BB BBIT 0 V={u(V(B)-0.5)}
+BX X 0 V={V(VDD)*(V(ABIT)+V(BBIT)-2*V(ABIT)*V(BBIT))}
+RSTATE X Y 1k
+CSTATE Y 0 4.329004329004329e-12
+BPOWER VDD 0 I={PAVG/VDD}
+.tran 20p 180n 0 20p
+.meas tran pavg AVG (-V(VDD)*I(VSUP)) FROM=40n TO=180n
+.meas tran tplh TRIG V(A) VAL=0.5 RISE=2 TARG V(Y) VAL=0.5 RISE=2
+.meas tran tphl TRIG V(A) VAL=0.5 FALL=2 TARG V(Y) VAL=0.5 FALL=2
+.meas tran voh MAX V(Y) FROM=40n TO=180n
+.meas tran vol MIN V(Y) FROM=40n TO=180n
+.end

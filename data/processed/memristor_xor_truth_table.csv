@@ -1,0 +1,5 @@
+A,B,expected_xor,memristor_result,pass,energy_j,latency_s,pulses,selected_memristors
+0,0,0,0,True,2.06e-15,3e-09,4,3
+0,1,1,1,True,1.0502000000000002e-13,3e-09,4,3
+1,0,1,1,True,1.0502000000000002e-13,3e-09,4,3
+1,1,0,0,True,6.0200000000000016e-15,3e-09,4,3

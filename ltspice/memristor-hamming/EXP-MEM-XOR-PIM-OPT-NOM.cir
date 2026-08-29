@@ -1,0 +1,23 @@
+* EXP-MEM-XOR-PIM-OPT-NOM
+* LTspice optimized behavioral macromodel for a 2M single-pulse PIM XOR primitive.
+* This is a research optimization target, not calibrated silicon evidence.
+.param VDD=1
+.param RON=200000.0
+.param ROFF=20000000.0
+.param PAVG=4.16940625e-10
+VSUP VDD 0 {VDD}
+VA A 0 PULSE(0 1 0.5n 2p 2p 0.5n 1n)
+VB B 0 0
+BA ABIT 0 V={u(V(A)-0.5)}
+BB BBIT 0 V={u(V(B)-0.5)}
+BX X 0 V={V(VDD)*(V(ABIT)+V(BBIT)-2*V(ABIT)*V(BBIT))}
+RSTATE X Y 1k
+CSTATE Y 0 2.1645021645021644e-14
+BPOWER VDD 0 I={PAVG/VDD}
+.tran 0.5p 5n 0 0.5p
+.meas tran pavg AVG (-V(VDD)*I(VSUP)) FROM=1n TO=5n
+.meas tran tplh TRIG V(A) VAL=0.5 RISE=2 TARG V(Y) VAL=0.5 RISE=2
+.meas tran tphl TRIG V(A) VAL=0.5 FALL=2 TARG V(Y) VAL=0.5 FALL=2
+.meas tran voh MAX V(Y) FROM=1n TO=5n
+.meas tran vol MIN V(Y) FROM=1n TO=5n
+.end

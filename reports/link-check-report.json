@@ -1,10 +1,10 @@
 {
   "base_path_tested": "/Extended-Hamming/",
-  "pages_checked": 24,
-  "internal_links_checked": 554,
+  "pages_checked": 25,
+  "internal_links_checked": 719,
   "internal_failures": 0,
-  "external_links_checked": 4,
-  "external_failures": 1,
+  "external_links_checked": 7,
+  "external_failures": 2,
   "internal": [
     {
       "page": "404.html",
@@ -73,6 +73,14 @@
     {
       "page": "download-center.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -107,14 +115,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "download-center.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -187,6 +187,54 @@
       "attribute": "href",
       "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
       "ok": true,
       "reason": ""
     },
@@ -353,6 +401,70 @@
     {
       "page": "download-center.html",
       "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
       "link": "scripts/hamming.py",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\scripts\\hamming.py",
       "ok": true,
@@ -387,6 +499,30 @@
       "attribute": "href",
       "link": "data/processed/results.csv",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_optimized_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_optimized_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "download-center.html",
+      "attribute": "href",
+      "link": "results/memristor/optimized_monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\optimized_monte_carlo_summary.json",
       "ok": true,
       "reason": ""
     },
@@ -473,6 +609,14 @@
     {
       "page": "index.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -507,14 +651,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "index.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -571,6 +707,22 @@
       "attribute": "href",
       "link": "proposed-design.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "index.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
       "ok": true,
       "reason": ""
     },
@@ -665,6 +817,14 @@
     {
       "page": "literature.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "literature.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -699,14 +859,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "literature.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -755,6 +907,198 @@
       "attribute": "href",
       "link": "literature/survey/survey.csv",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\literature\\survey\\survey.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "assets/site.css",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\assets\\site.css",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "thesis/index.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\thesis\\index.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "literature.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\literature.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "research-gap.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-gap.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "simulations.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "technical-documentation.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\technical-documentation.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "pdf-library.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf-library.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "download-center.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "references.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\references.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "proposed-design.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "memristor-extension.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results.html",
       "ok": true,
       "reason": ""
     },
@@ -809,6 +1153,14 @@
     {
       "page": "pdf-library.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -843,14 +1195,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "pdf-library.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -979,6 +1323,30 @@
       "attribute": "href",
       "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "pdf-library.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.docx",
       "ok": true,
       "reason": ""
     },
@@ -1273,6 +1641,14 @@
     {
       "page": "proposed-design.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "proposed-design.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -1307,14 +1683,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "proposed-design.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -1403,6 +1771,14 @@
       "attribute": "href",
       "link": "proposed-design.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\proposed-design.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "references.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
       "ok": true,
       "reason": ""
     },
@@ -1537,6 +1913,14 @@
     {
       "page": "research-effort.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -1571,14 +1955,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "research-effort.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -1849,6 +2225,462 @@
     {
       "page": "research-effort.html",
       "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-gap.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-gap.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "verification/verilog/hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\verification\\verilog\\hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/progress.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\progress.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/paper-outline.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\paper-outline.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_xor_truth_table.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_xor_truth_table.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/optimized_monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\optimized_monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/nominal_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\nominal_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/nominal_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\nominal_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/paper-outline.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\paper-outline.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/vteam_rram_research_model.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\vteam_rram_research_model.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/vteam_rram_research_model.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\vteam_rram_research_model.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/optimized_pim_xor_research_model.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\optimized_pim_xor_research_model.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "scripts/memristor_pim_hamming.py",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\scripts\\memristor_pim_hamming.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_xor_truth_table.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_xor_truth_table.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/xor_truth_table.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\xor_truth_table.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_optimized_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_optimized_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/ltspice_comparison_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\ltspice_comparison_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/ltspice_comparison_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\ltspice_comparison_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/optimized_monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\optimized_monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/progress.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\progress.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "scripts/generate_memristor_phase_report.py",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\scripts\\generate_memristor_phase_report.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "#arabic-overview",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "#link-map",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "reports/link-check-report.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\reports\\link-check-report.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/publication-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\publication-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "references/references.bib",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\references\\references.bib",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
       "link": "literature.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\literature.html",
       "ok": true,
@@ -2099,6 +2931,462 @@
       "attribute": "href",
       "link": "docs/progress.md",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\progress.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-gap.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-gap.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "verification/verilog/hamming_encoders.sv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\verification\\verilog\\hamming_encoders.sv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/progress.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\progress.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/paper-outline.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\paper-outline.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_xor_truth_table.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_xor_truth_table.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/optimized_monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\optimized_monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/nominal_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\nominal_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/nominal_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\nominal_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/simulation/Simulation_Results_and_Analysis.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\simulation\\Simulation_Results_and_Analysis.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/research-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/paper-outline.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\paper-outline.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/vteam_rram_research_model.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\vteam_rram_research_model.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/vteam_rram_research_model.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\vteam_rram_research_model.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "models/memristor/optimized_pim_xor_research_model.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\models\\memristor\\optimized_pim_xor_research_model.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.cir",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "scripts/memristor_pim_hamming.py",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\scripts\\memristor_pim_hamming.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_xor_truth_table.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_xor_truth_table.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/xor_truth_table.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\xor_truth_table.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_optimized_results.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_optimized_results.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/ltspice_comparison_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\ltspice_comparison_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-EH127-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "ltspice/memristor-hamming/EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\ltspice\\memristor-hamming\\EXP-MEM-XOR-PIM-OPT-NOM.log",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "data/processed/memristor_ltspice_comparison.csv",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\data\\processed\\memristor_ltspice_comparison.csv",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/ltspice_comparison_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\ltspice_comparison_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "results/memristor/optimized_monte_carlo_summary.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\results\\memristor\\optimized_monte_carlo_summary.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/progress.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\progress.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "scripts/generate_memristor_phase_report.py",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\scripts\\generate_memristor_phase_report.py",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "#english-overview",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "#link-map",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "reports/link-check-report.json",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\reports\\link-check-report.json",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-implementation-results.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-implementation-results.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/publication-plan.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\publication-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "references/references.bib",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\references\\references.bib",
       "ok": true,
       "reason": ""
     },
@@ -2153,6 +3441,14 @@
     {
       "page": "research-effort.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -2211,6 +3507,14 @@
       "attribute": "href",
       "link": "docs/research-plan.md",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\research-plan.md",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "docs/memristor-based-hamming-encoder-research-extension.md",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\docs\\memristor-based-hamming-encoder-research-extension.md",
       "ok": true,
       "reason": ""
     },
@@ -2387,6 +3691,22 @@
       "attribute": "href",
       "link": "pdf/research/Proposed_Hybrid_Extended_Hamming_Encoder.docx",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Proposed_Hybrid_Extended_Hamming_Encoder.docx",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.pdf",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-effort.html",
+      "attribute": "href",
+      "link": "pdf/research/Memristor_PIM_Current_Development_Phase_Report.docx",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\pdf\\research\\Memristor_PIM_Current_Development_Phase_Report.docx",
       "ok": true,
       "reason": ""
     },
@@ -3081,6 +4401,14 @@
     {
       "page": "research-gap.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "research-gap.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -3115,14 +4443,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "research-gap.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -3217,6 +4537,14 @@
     {
       "page": "results.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "results.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -3251,14 +4579,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "results.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -3385,6 +4705,14 @@
     {
       "page": "simulations.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "simulations.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -3419,14 +4747,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "simulations.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -3529,6 +4849,14 @@
     {
       "page": "technical-documentation.html",
       "attribute": "href",
+      "link": "memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "technical-documentation.html",
+      "attribute": "href",
       "link": "simulations.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\simulations.html",
       "ok": true,
@@ -3563,14 +4891,6 @@
       "attribute": "href",
       "link": "download-center.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\download-center.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "technical-documentation.html",
-      "attribute": "href",
-      "link": "research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
       "ok": true,
       "reason": ""
     },
@@ -4009,14 +5329,6 @@
     {
       "page": "thesis\\index.html",
       "attribute": "href",
-      "link": "../research-effort.html",
-      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\research-effort.html",
-      "ok": true,
-      "reason": ""
-    },
-    {
-      "page": "thesis\\index.html",
-      "attribute": "href",
       "link": "#abstract",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\thesis\\index.html",
       "ok": true,
@@ -4433,6 +5745,14 @@
     {
       "page": "thesis\\chapters\\index.html",
       "attribute": "href",
+      "link": "../../memristor-extension.html",
+      "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\memristor-extension.html",
+      "ok": true,
+      "reason": ""
+    },
+    {
+      "page": "thesis\\chapters\\index.html",
+      "attribute": "href",
       "link": "../index.html",
       "target": "C:\\Users\\hesham\\Desktop\\work\\Encoders\\thesis\\index.html",
       "ok": true,
@@ -4441,12 +5761,23 @@
   ],
   "external": [
     {
+      "url": "https://arxiv.org/abs/2602.04035",
+      "status": null,
+      "ok": false,
+      "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
       "url": "https://github.com/printcode1000-lgtm/Extended-Hamming",
       "status": 200,
       "ok": true
     },
     {
       "url": "https://mec.umn.edu/ptm",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://poplab.stanford.edu/pdfs/Hoffer-StatefulLogicPCM-jxcdc22.pdf",
       "status": 200,
       "ok": true
     },
@@ -4460,6 +5791,12 @@
       "status": null,
       "ok": false,
       "note": "The read operation timed out"
+    },
+    {
+      "url": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.16926025.v1",
+      "status": 403,
+      "ok": true,
+      "note": "HTTP Error 403: Forbidden"
     }
   ]
 }

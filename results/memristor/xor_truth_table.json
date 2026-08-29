@@ -1,0 +1,46 @@
+[
+  {
+    "A": 0,
+    "B": 0,
+    "expected_xor": 0,
+    "memristor_result": 0,
+    "pass": true,
+    "energy_j": 2.06e-15,
+    "latency_s": 3e-09,
+    "pulses": 4,
+    "selected_memristors": 3
+  },
+  {
+    "A": 0,
+    "B": 1,
+    "expected_xor": 1,
+    "memristor_result": 1,
+    "pass": true,
+    "energy_j": 1.0502000000000002e-13,
+    "latency_s": 3e-09,
+    "pulses": 4,
+    "selected_memristors": 3
+  },
+  {
+    "A": 1,
+    "B": 0,
+    "expected_xor": 1,
+    "memristor_result": 1,
+    "pass": true,
+    "energy_j": 1.0502000000000002e-13,
+    "latency_s": 3e-09,
+    "pulses": 4,
+    "selected_memristors": 3
+  },
+  {
+    "A": 1,
+    "B": 1,
+    "expected_xor": 0,
+    "memristor_result": 0,
+    "pass": true,
+    "energy_j": 6.0200000000000016e-15,
+    "latency_s": 3e-09,
+    "pulses": 4,
+    "selected_memristors": 3
+  }
+]

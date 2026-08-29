@@ -1,0 +1,11 @@
+{
+  "trials": 10000,
+  "seed": 127,
+  "logic_errors": 15,
+  "logic_error_rate": 0.0015,
+  "mean_read_margin_ratio": 52.470574518488874,
+  "p01_read_margin_ratio": 37.297779824297805,
+  "mean_energy_j": 1.212036664095468e-12,
+  "mean_latency_s": 4.2108510952690434e-08,
+  "accepted": false
+}

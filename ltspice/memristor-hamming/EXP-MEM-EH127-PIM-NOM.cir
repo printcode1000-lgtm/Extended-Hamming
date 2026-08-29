@@ -1,0 +1,55 @@
+* EXP-MEM-EH127-PIM-NOM
+* LTspice behavioral crossbar-level mapping for Extended Hamming (12,7).
+* Data cells: D1 D2 D3 D4 D5 D6 D7
+* Parity cells: P1 P2 P4 P8 P0
+* Scratch/destination cells are allocated by the PIM_XOR_3M_CONSERVATIVE primitive.
+* Parity equations:
+* P1 = D1 xor D2 xor D4 xor D5 xor D7
+* P2 = D1 xor D3 xor D4 xor D6 xor D7
+* P4 = D2 xor D3 xor D4
+* P8 = D5 xor D6 xor D7
+* P0 = D1 xor D2 xor D3 xor D4 xor D5 xor D6 xor D7 xor P1 xor P2 xor P4 xor P8
+* Execution groups: P1/P2/P4/P8 in parallel where row/column conflicts allow; P0 after Hamming parity completion.
+.param VDD=1
+.param RON=10000.0
+.param ROFF=1000000.0
+.param WORD_ENERGY=1.7996000000000001e-12
+.param PAVG=0.00022495000000000002
+VSUP VDD 0 {VDD}
+VD1 D1 0 PULSE(0 1 20n 50p 50p 100n 200n)
+VD2 D2 0 0
+VD3 D3 0 0
+VD4 D4 0 0
+VD5 D5 0 0
+VD6 D6 0 0
+VD7 D7 0 0
+BD1 D1B 0 V={u(V(D1)-0.5)}
+BD2 D2B 0 V={u(V(D2)-0.5)}
+BD3 D3B 0 V={u(V(D3)-0.5)}
+BD4 D4B 0 V={u(V(D4)-0.5)}
+BD5 D5B 0 V={u(V(D5)-0.5)}
+BD6 D6B 0 V={u(V(D6)-0.5)}
+BD7 D7B 0 V={u(V(D7)-0.5)}
+BP1 P1I 0 V={V(D1B)+V(D2B)+V(D4B)+V(D5B)+V(D7B)-2*floor((V(D1B)+V(D2B)+V(D4B)+V(D5B)+V(D7B))/2)}
+BP2 P2I 0 V={V(D1B)+V(D3B)+V(D4B)+V(D6B)+V(D7B)-2*floor((V(D1B)+V(D3B)+V(D4B)+V(D6B)+V(D7B))/2)}
+BP4 P4I 0 V={V(D2B)+V(D3B)+V(D4B)-2*floor((V(D2B)+V(D3B)+V(D4B))/2)}
+BP8 P8I 0 V={V(D5B)+V(D6B)+V(D7B)-2*floor((V(D5B)+V(D6B)+V(D7B))/2)}
+BP0 P0I 0 V={V(D1B)+V(D2B)+V(D3B)+V(D4B)+V(D5B)+V(D6B)+V(D7B)+V(P1I)+V(P2I)+V(P4I)+V(P8I)-2*floor((V(D1B)+V(D2B)+V(D3B)+V(D4B)+V(D5B)+V(D6B)+V(D7B)+V(P1I)+V(P2I)+V(P4I)+V(P8I))/2)}
+RP1 P1I P1 1k
+CP1 P1 0 2.02020202020202e-11
+RP2 P2I P2 1k
+CP2 P2 0 2.02020202020202e-11
+RP4 P4I P4 1k
+CP4 P4 0 2.02020202020202e-11
+RP8 P8I P8 1k
+CP8 P8 0 2.02020202020202e-11
+RP0 P0I P0 1k
+CP0 P0 0 6.06060606060606e-11
+BPOWER VDD 0 I={PAVG/VDD}
+.tran 50p 900n 0 50p
+.meas tran pavg AVG (-V(VDD)*I(VSUP)) FROM=250n TO=900n
+.meas tran tplh TRIG V(D1) VAL=0.5 RISE=2 TARG V(P0) VAL=0.5 RISE=2
+.meas tran tphl TRIG V(D1) VAL=0.5 FALL=2 TARG V(P0) VAL=0.5 FALL=2
+.meas tran voh MAX V(P0) FROM=250n TO=900n
+.meas tran vol MIN V(P0) FROM=250n TO=900n
+.end
